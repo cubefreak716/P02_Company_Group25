@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'Oxygen';
+  font-weight: normal;
+  font-style: normal;
+  src:url('../fonts/Oxygen-Regular.eot');
+  src:url('../fonts/Oxygen-Regular.eot/#iefix') format('embedded-opentype'),
+      url('../fonts/Oxygen-Regular.woff2') format('woff2'),
+		  url('../fonts/Oxygen-Regular.woff') format('woff'),
+		  url('../fonts/Oxygen-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Oxygen';
+  font-weight: bold;
+  font-style: bold;
+  src:url('../fonts/Oxygen-Bold.eot');
+  src:url('../fonts/Oxygen-Bold.eot/#iefix') format('embedded-opentype'),
+      url('../fonts/Oxygen-Bold.woff2') format('woff2'),
+		  url('../fonts/Oxygen-Bold.woff') format('woff'),
+		  url('../fonts/Oxygen-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Teko';
+  font-weight: normal;
+  font-style: normal;
+  src:url('../fonts/Teko-Regular.eot');
+  src:url('../fonts/Teko-Regular.eot/#iefix') format('embedded-opentype'),
+      url('../fonts/Teko-Regular.woff2') format('woff2'),
+		  url('../fonts/Teko-Regular.woff') format('woff'),
+		  url('../fonts/Teko-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Teko';
+  font-weight:bold;
+  font-style: bold;
+  src:url('../fonts/Teko-Bold.eot');
+  src:url('../fonts/Teko-Bold.eot/#iefix') format('embedded-opentype'),
+      url('../fonts/Teko-Bold.woff2') format('woff2'),
+		  url('../fonts/Teko-Bold.woff') format('woff'),
+		  url('../fonts/Teko-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Teko';
+  font-weight:lighter;
+  font-style: lighter;
+  src:url('../fonts/Teko-Light.eot');
+  src:url('../fonts/Teko-Light.eot/#iefix') format('embedded-opentype'),
+      url('../fonts/Teko-Light.woff2') format('woff2'),
+		  url('../fonts/Teko-Light.woff') format('woff'),
+		  url('../fonts/Teko-Light.ttf') format('truetype');
+}
