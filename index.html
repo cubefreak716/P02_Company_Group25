@@ -3,8 +3,305 @@
   <head>
     <meta charset="utf-8" />
     <title>...</title>
+
+    <!--Morgan's old css files -->
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/flexbox.css" rel="stylesheet">
+    <!--Matilda's old css files-->
+    <link href="css/flexbox-styleguide.css" rel="stylesheet">
   </head>
   <body>
-      <h1>Welcome</h1>
+      <h1>P02_</h1>
+
+      <h2>Style Guide:</h2>
+      <section class="basic-interactive-elements">
+
+        <h3>Basic Interactive Elements</h3>
+        <!--Logo Header -->
+        <div class="container">
+          <div class="box-left">
+            <h4>Logo Text</h4>
+            <p class="subtitle"> heading used for logo design </p>
+          </div>
+          <div class="box-right">
+            <div class="box-right-top">
+              <code>&lt;h1 class="logo-text"&gt;Phalanx Studios&lt;/h1&gt;</code>
+            </div>
+            <div class="box-right-bottom">
+              <h1 class="logo-text">Phalanx Studios</h1>
+            </div>
+          </div>
+        </div>
+        <!--Section Header -->
+        <div class="container">
+          <div class="box-left">
+            <h4>Section Header</h4>
+            <p class="subtitle"> heading used for the begining of a section </p>
+          </div>
+          <div class="box-right">
+            <div class="box-right-top">
+              <code>&lt;h2&gt;Section Heading&lt;/h2&gt;</code>
+            </div>
+            <div class="box-right-bottom">
+              <h2>Section Heading</h2>
+            </div>
+          </div>
+        </div>
+        <!--Sub section Header -->
+        <div class="container">
+          <div class="box-left">
+            <h4>Sub Header</h4>
+            <p class="subtitle"> subheadings for major sections </p>
+          </div>
+          <div class="box-right">
+            <div class="box-right-top">
+              <code>&lt;h3&gt;Example Sub Heading&lt;/h3&gt;</code>
+            </div>
+            <div class="box-right-bottom">
+              <h3>Example Sub Heading</h3>
+            </div>
+          </div>
+        </div>
+
+        <!--Paragraph -->
+        <div class="container">
+          <div class="box-left">
+            <h4>Paragarph</h4>
+            <p class="subtitle"> for written content in a section </p>
+          </div>
+          <div class="box-right">
+            <div class="box-right-top">
+              <code>&lt;p&gt;This is an example of body text. This paragraph would contain a variety of information.&lt;/p&gt;</code>
+            </div>
+            <div class="box-right-bottom">
+              <p>This is an example of body text. This paragraph would contain a variety of information.</p>
+            </div>
+          </div>
+        </div>
+
+        <!--Bulleted List: -->
+        <div class="container">
+          <div class="box-left">
+            <h4>Bulleted List</h4>
+            <p class="subtitle"> for unordered lists </p>
+          </div>
+          <div class="box-right">
+            <div class="box-right-top">
+              <code>
+                &lt;ul&gt; <br/>
+                &lt;li&gt;Item One&lt;/li&gt;<br/>
+                &lt;li&gt;Item Two&lt;/li&gt;<br/>
+                &lt;li&gt;Item Three &lt;/li&gt;<br/>
+                &lt;/ul&gt;
+              </code>
+            </div>
+            <div class="box-right-bottom">
+              <ul>
+                <li>Item One</li>
+                <li>Item Two</li>
+                <li>Item Three</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!--Numbered List: -->
+        <div class="container">
+          <div class="box-left">
+            <h4>Numbered List</h4>
+            <p class="subtitle"> for ordered lists </p>
+          </div>
+          <div class="box-right">
+            <div class="box-right-top">
+              <code>
+                &lt;ol&gt; <br/>
+                &lt;li&gt;Item One&lt;/li&gt;<br/>
+                &lt;li&gt;Item Two&lt;/li&gt;<br/>
+                &lt;li&gt;Item Three &lt;/li&gt;<br/>
+                &lt;/ol&gt;
+              </code>
+            </div>
+            <div class="box-right-bottom">
+              <ol>
+                <li>Item One</li>
+                <li>Item Two</li>
+                <li>Item Three</li>
+              </ol>
+            </div>
+          </div>
+        </div>
+
+        <!--In text links -->
+        <div class="container">
+          <div class="box-left">
+            <h4>In Text Link</h4>
+            <p class="subtitle"> indication that a link in a text is interactive </p>
+          </div>
+          <div class="box-right">
+            <div class="box-right-top">
+              <code>&lt;a href="#"&gt;Example Link&lt;/a&gt;</code>
+            </div>
+            <div class="box-right-bottom">
+              <a href="#">Example Link</a>
+            </div>
+          </div>
+        </div>
+
+        <!--Action button -->
+        <div class="container">
+          <div class="box-left">
+            <h4>Action Button</h4>
+            <p class="subtitle"> standard interactive button </p>
+          </div>
+          <div class="box-right">
+            <div class="box-right-top">
+              <code>
+                &lt;button id="action-button"&gt;Do Thing&lt;/button&gt;
+              </code>
+            </div>
+            <div class="box-right-bottom">
+              <button class="action-button">Button</button>
+            </div>
+          </div>
+        </div>
+
+        <!--Submit/reset button -->
+        <div class="container">
+          <div class="box-left">
+            <h4>Action Button</h4>
+            <p class="subtitle"> standard interactive button </p>
+          </div>
+          <div class="box-right">
+            <div class="box-right-top">
+              <code>
+                &lt;input type=submit name="submit"&gt;Submit&lt;/input&gt;
+                &lt;input type=Reset name="Reset"&gt;Reset&lt;/input&gt;
+              </code>
+            </div>
+            <div class="box-right-bottom">
+              <input type="submit" name="submit">
+              <input type="Reset" name="Reset">
+            </div>
+          </div>
+        </div>
+
+        <!--Colour pallete -->
+        <div class="container">
+          <div class="box-left">
+            <h4>Colour Swatches </h4>
+            <p class="subtitle"> colour palette used for website </p>
+          </div>
+          <div class="box-right-palette">
+            <div class="palette-cube">
+              <div class="color-swatch base"></div>
+              <h5 class="colour-hex">(209, 168, 121)</h5>
+            </div>
+            <div class="palette-cube">
+              <div class="color-swatch background"></div>
+              <h5 class="colour-hex">(229, 207, 181)</h5>
+            </div>
+            <div class="palette-cube">
+              <div class="color-swatch hover-state"></div>
+              <h5 class="colour-hex">(191, 144, 90)</h5>
+            </div>
+            <div class="palette-cube">
+              <div class="color-swatch search"></div>
+              <h5 class="colour-hex">(97, 68, 34)</h5>
+            </div>
+            <div class="palette-cube">
+              <div class="color-swatch purchase"></div>
+              <h5 class="colour-hex">(153, 92, 49)</h5>
+            </div>
+            <div class="palette-cube">
+              <div class="color-swatch purchase-hover"></div>
+              <h5 class="colour-hex">(176, 111, 65)</h5>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <h2>Style Guide:</h2>
+      <section class="basic-interactive-elements">
+
+        <h3>Navigation</h3>
+        <!--Navigation bar -->
+        <div class="container">
+          <div class="box-left">
+            <h4>Navigation bar</h4>
+            <p class="subtitle"> navigation bar located on the top of each page </p>
+          </div>
+          <div class="box-right">
+            <div class="box-right-top">
+                <!--sample code here-->
+            </div>
+            <div class="box-right-bottom">
+              <nav class="nav-main box">
+                <a href="index.html" class="logo-text nav-main-item box-item-logo ">Phalanx Studios</a>
+                <a href="#" class="nav-main-item  box-item-nav nav-button">Browse</a>
+                <a href="#" class="nav-main-item  box-item-nav nav-button">Community</a>
+                <a href="#" class="nav-main-item  box-item-nav nav-button">About Us</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+
+        <!--Product listing -->
+        <div class="container">
+          <div class="box-left">
+            <h4>Product listing</h4>
+            <p class="subtitle"> how products will appear on detailed page  </p>
+          </div>
+          <div class="box-right">
+            <div class="product-main box">
+              <div class="product-main-item product-main-1">
+                <h3>Game Title</h3>
+                <p>This is a desription of a game. It is a very interesting game. It is about ancient things, and it's super cool. You should buy and play it. Seriously, you won't regret it. it has many entertaining features that will make you happy. For example, you can do things. These things are fun. Play this game.</p>
+              </div>
+              <div class="product-main-item product-main-2">
+                <button class="action-button">Purchase</button>
+                <h4>System Specifications</h4>
+                <ul>
+                  <li>Your computer needs this to play</li>
+                  <li>This as well</li>
+                  <li>Also this</li>
+                  <li>This is also needed</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--Product Browser -->
+      <div class="container">
+        <div class="box-left">
+          <h4>Product Browser</h4>
+          <p class="subtitle"> product grid and layout </p>
+        </div>
+        <div class="box-right">
+          <div class="product-browser-main box">
+            <div class="product-browser-main-item">
+              <h3>Game Title</h3>
+              <p>Brief Description</p>
+            </div>
+            <div class="product-browser-main-item">
+              <h3>Game Title</h3>
+              <p>Brief Description</p>
+            </div>
+          </div>
+          <div class="product-browser-main box">
+            <div class="product-browser-main-item">
+              <h3>Game Title</h3>
+              <p>Brief Description</p>
+            </div>
+            <div class="product-browser-main-item">
+              <h3>Game Title</h3>
+              <p>Brief Description</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
   </body>
 </html>

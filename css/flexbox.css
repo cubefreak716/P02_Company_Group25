@@ -1,0 +1,39 @@
+*, *::after, *::before {
+	box-sizing: border-box;
+}
+
+.box {
+
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+
+	flex-wrap: -webkit-wrap;
+	flex-wrap: -ms-wrap;
+	flex-wrap: wrap;
+
+	justify-content: space-around;
+}
+
+.box-item-nav {
+	flex: 1 1 auto;
+}
+
+.product-main-1 {
+	flex: 2 1 ;
+}
+
+.product-main-2 {
+	flex: 1 1 ;
+}
+
+.box-item-logo {
+	flex: 3 1 auto;
+}
+
+.product-browser-main-item {
+	flex: 1 1 auto;
+}
+
+@media (max-width: 30em) {
+}
