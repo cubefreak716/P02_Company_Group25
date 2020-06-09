@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'BebasNeue';
+  font-weight: normal;
+  font-style: normal;
+  src:url('../fonts/BebasNeue-Regular.eot');
+  src:url('../fonts/BebasNeue-Regular.eot/#iefix') format('embedded-opentype'),
+      url('../fonts/BebasNeue-Regular.woff2') format('woff2'),
+		  url('../fonts/BebasNeue-Regular.woff') format('woff'),
+		  url('../fonts/BebasNeue-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-weight: normal;
+  font-style: normal;
+  src:url('../fonts/Ubuntu-Regular.eot');
+  src:url('../fonts/Ubuntu-Regular.eot/#iefix') format('embedded-opentype'),
+      url('../fonts/Ubuntu-Regular.woff2') format('woff2'),
+		  url('../fonts/Ubuntu-Regular.woff') format('woff'),
+		  url('../fonts/Ubuntu-Regular.ttf') format('truetype');
+}

@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>P01 Wireframes</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial=scale=1.0"> <!-- -->
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/flexbox.css" rel="stylesheet">
+    <link href="css/fonts.css" rel="stylesheet">
+    <link href="css/flexbox-styleguide.css" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <nav class="nav-main box">
+      <a href="index.html" class="nav-main-item branding box-item-nav"><h4>Style Guide</h4></a>
+      <a href="branding.html" class="nav-main-item box-item-nav"> <h4> User Tasks </h4> </a>
+      <a href="wireframes.html" class="nav-main-item wireframes box-item-nav"> <h4> Wireframes </h4> </a>
+      <a href="citations.html" class="nav-main-item citations box-item-nav"><h4>Citations</h4></a>
+    </nav>
+
+  <h1>Style guide</h1>
+
+  <h2>A small note</h2>
+
+  <p class="note"> I had made another set of grid structures using the full dimensions of the webpage
+    However when I tried to recreated to fit the format of my styleguide it didn't go so well.
+    Here is a <a href="wireframes-old.html"> link </a> to those grid sturctures.
+  </p>
+
+  <h2>Style Guide:</h2>
+  <section class="basic-interactive-elements">
+
+    <h3>Basic Interactive Elements</h3>
+
+    <div class="container">
+      <div class="box-left">
+        <h4>In-text Link </h4>
+        <p class="subtitle"> for hyperlinks to direct users to another location </p>
+      </div>
+      <div class="box-right">
+        <div class="box-right-top">
+          <code>&lt;a href="#" class="styling"&gt; link &lt;/a&gt;</code>
+        </div>
+        <div class="box-right-bottom">
+          <p>Please click on this <a href="#" class="styling"> link </a> to go see a picture of nothing. </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="box-left">
+        <h4>Call to action Button</h4>
+        <p class="subtitle"> for search, add and other actions button </p>
+      </div>
+      <div class="box-right">
+        <div class="box-right-top">
+          <code>&lt;button type="button" class="call-button"&gt; Q &lt;/button&gt;</code>
+        </div>
+        <div class="box-right-bottom">
+          <button  type="button" class="call-button"> Q </button>
+          <button  type="button" class="call-button"> X </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="box-left">
+        <h4>Submit & Reset Button</h4>
+        <p class="subtitle"> for form buttons</p>
+      </div>
+      <div class="box-right">
+        <div class="box-right-top">
+          <code>&lt;button type="button" class="submit-button"&gt; Button &lt;/button&gt;</code>
+        </div>
+        <div class="box-right-bottom">
+          <button type="button" class="submit-button"> Button </button>
+        </div>
+        <div class="box-right-top">
+          <code>&lt;button type="button" class="reset-button"&gt; o &lt;/button&gt;</code>
+        </div>
+        <div class="box-right-bottom">
+          <button type="button" class="reset-button"> o </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="box-left">
+        <h4>Text Input & Label</h4>
+        <p class="subtitle"> for form inputs with their corresponding labels</p>
+      </div>
+      <div class="box-right">
+        <div class="box-right-top">
+          <code>
+          &lt;form&gt;<br>
+            &lt;div class="form-item"&gt;<br>
+              &lt;div class="form-item-label"&gt;<br>
+                &lt;label for="form-name"&gt;Name&lt;/label&gt;<br>
+              &lt;/div&gt;<br>
+              &lt;div class="form-item-input"&gt;<br>
+                &lt;input type="text" id="form-name" name="f-name"&gt;<br>
+              &lt;/div&gt;<br>
+            &lt;/div&gt;<br>
+            &lt;div class="form-item"&gt;<br>
+              &lt;div class="form-item-label"&gt;<br>
+                &lt;label for="form-product-quantity"&gt;Quantitylt;/label&gt;<br>
+              &lt;/div&gt;<br>
+              &lt;div class="form-item-input"&gt;<br>
+                &lt;input type="number" id="form-product-quantity" name="f-quantity"&gt;<br>
+              &lt;/div&gt;<br>
+            &lt;/div&gt;<br>
+          &lt;/form&gt;
+          </code>
+        </div>
+        <div class="box-right-bottom">
+          <form>
+            <div class="form-item">
+              <div class="form-item-label">
+              <label for="form-name">Name</label>
+              </div>
+              <div class="form-item-input">
+              <input type="text" id="form-name" name="f-name">
+              </div>
+            </div>
+            <div class="form-item">
+              <div class="form-item-label">
+              <label for="form-product-quantity">Quantity</label>
+              </div>
+              <div class="form-item-input">
+              <input type="number" id="form-product-quantity" name="f-quantity">
+              </div>
+            </div>
+            <button type="button" class="submit-button"> Button </button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="box-left">
+        <h4>Colour Swatches </h4>
+        <p class="subtitle"> colour palette used for website </p>
+      </div>
+      <div class="box-right-palette">
+        <div class="palette-cube">
+          <div class="colour-swatch-one"></div>
+          <h5 class="colour-hex">729ADB</h5>
+        </div>
+        <div class="palette-cube">
+          <div class="colour-swatch-two"></div>
+          <h5 class="colour-hex">C9F0FF</h5>
+        </div>
+        <div class="palette-cube">
+          <div class="colour-swatch-three"></div>
+          <h5 class="colour-hex">EAFFFD</h5>
+        </div>
+        <div class="palette-cube">
+          <div class="colour-swatch-four"></div>
+          <h5 class="colour-hex">EFEFF0</h5>
+        </div>
+        <div class="palette-cube">
+          <div class="colour-swatch-five"></div>
+          <h5 class="colour-hex">D5CAD6</h5>
+        </div>
+        <div class="palette-cube">
+          <div class="colour-swatch-six"></div>
+          <h5 class="colour-hex">6B5E62</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="text-styling">
+
+    <h3>Text Styling</h3>
+
+    <div class="container">
+      <div class="box-left">
+        <h4>Heading 1</h4>
+        <p class="subtitle"> heading used to indicate the what page user is on </p>
+      </div>
+      <div class="box-right">
+        <div class="box-right-top">
+          <code>&lt;h1 class="styling"&gt;Example Title&lt;/h1&gt;</code>
+        </div>
+        <div class="box-right-bottom">
+          <h1 class="styling">Company Name</h1>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="box-left">
+        <h4>Heading 2</h4>
+        <p class="subtitle"> heading used for subheadings to describe product categories </p>
+      </div>
+      <div class="box-right">
+        <div class="box-right-top">
+          <code>&lt;h2 class="styling"&gt;Example Subheading&lt;/h2&gt;</code>
+        </div>
+        <div class="box-right-bottom">
+          <h2 class="styling">Categories</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="box-left">
+        <h4>Heading 3</h4>
+        <p class="subtitle"> heading used miscellaneous minor headings </p>
+      </div>
+      <div class="box-right">
+        <div class="box-right-top">
+          <code>&lt;h3 class="styling"&gt;Example Minor Heading&lt;/h3&gt;</code>
+        </div>
+        <div class="box-right-bottom">
+          <h3 class="styling">See More</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="box-left">
+        <h4>Paragraph</h4>
+        <p class="subtitle"> general format of how content will be presented </p>
+      </div>
+      <div class="box-right">
+        <div class="box-right-top">
+          <code>
+            &lt;p class="styling"&gt; <br>This is a paragraph. There is lots of text in this paragraph. Paragraphs are great. I love paragraphs. Paragraphs are
+              usually 7 to 10 sentences so I have been told by my highschool English teacher. Am I there yet? Yes.<br>
+            &lt;/p&gt;
+          </code>
+        </div>
+        <div class="box-right-bottom">
+          <p class="styling"> This is a paragraph. There is lots of text in this paragraph. Paragraphs are great. I love paragraphs. Paragraphs are
+            usually 7 to 10 sentences so I have been told by my highschool English teacher. Am I there yet? Yes.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="box-left">
+        <h4>Bulleted List</h4>
+        <p class="subtitle"> for unordered lists </p>
+      </div>
+      <div class="box-right">
+        <div class="box-right-top">
+          <code>
+            &lt;ul&gt;<br>
+              &lt;li&gt;Item 1&lt;/li&gt;<br>
+              &lt;li&gt;Item 2&lt;/li&gt;<br>
+              &lt;li&gt;Item 3&lt;/li&gt;<br>
+              &lt;li&gt;Item 4&lt;/li&gt;<br>
+            &lt;ul&gt;
+          </code>
+        </div>
+        <div class="box-right-bottom">
+          <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+            <li>Item 4</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="box-left">
+        <h4>Numbered List</h4>
+        <p class="subtitle"> for ordered lists </p>
+      </div>
+      <div class="box-right">
+        <div class="box-right-top">
+          <code>
+            &lt;ol&gt;<br>
+              &lt;li&gt;Item 1&lt;/li&gt;<br>
+              &lt;li&gt;Item 2&lt;/li&gt;<br>
+              &lt;li&gt;Item 3&lt;/li&gt;<br>
+              &lt;li&gt;Item 4&lt;/li&gt;<br>
+            &lt;ol&gt;
+          </code>
+        </div>
+        <div class="box-right-bottom">
+          <ol>
+            <li>First Item</li>
+            <li>Second Item</li>
+            <li>Third Item</li>
+            <li>Last Item</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section class="modular-pattern-elements">
+    <h3>Modular Pattern Elements</h3>
+
+    <div class="container">
+      <div class="box-left">
+        <h4>Main Navigation Module</h4>
+        <p class="subtitle"> navigation bar for users to explore other content </p>
+      </div>
+      <div class="box-right">
+        <div class="box-right-top">
+          <code>&lt;h3 class="styling"&gt;Example Minor Heading&lt;/h3&gt;</code>
+        </div>
+        <div class="box-right-bottom">
+          <nav class="main-nav-bar">
+            <div class="nav-bar-item"><a href="#">About</a></div>
+            <div class="nav-bar-item"><a href="#">Product</a></div>
+            <div class="nav-bar-item"><a href="#">Request</a></div>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+    <h3>Product/Service listing</h3>
+
+    <div class="container">
+      <div class="box-left">
+        <h4>Product Module (Single)</h4>
+        <p class="subtitle"> a module containing a preview of one product </p>
+      </div>
+      <div class="box-right">
+        <div class="box-right-top">
+          <code>
+            &lt;div class="box-product-module"&gt;<br>
+              &lt;div class="product-image"&gt;<br>
+                &lt;img src="" alt""&gt;<br>
+              &lt;/div&gt;<br>
+              &lt;div class="product-text"&gt;&lt;h3 class="styling"&gt;Product Name&lt;/h3&gt;&lt;/div&gt;<br>
+              &lt;div class="product-text"&gt;&lt;p class="styling"&gt;$5.99&lt;/p&gt;&lt;/div&gt;<br>
+            &lt;/div&gt;<br>
+          </code>
+        </div>
+        <div class="box-right-bottom">
+          <div class="box-product-module single">
+            <div class="product-image">
+            </div>
+            <div class="product-text"><h3 class="styling">Product Name</h3></div>
+            <div class="product-text"><p class="styling">$5.99</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="box-left">
+        <h4>Product Module (Grouped)</h4>
+        <p class="subtitle"> multiple products grouped together </p>
+      </div>
+      <div class="box-right">
+        <div class="box-right-top">
+        </div>
+        <div class="box-right-bottom">
+          <div class="box">
+
+            <div class="box-product-module">
+              <div class="product-image">   </div>
+              <div class="product-text"><h3 class="styling">Product Name</h3></div>
+              <div class="product-text"><p class="styling">$5.99</p></div>
+            </div>
+
+            <div class="box-product-module">
+              <div class="product-image">    </div>
+              <div class="product-text"><h3 class="styling">Product Name</h3></div>
+              <div class="product-text"><p class="styling">$5.99</p></div>
+            </div>
+
+            <div class="box-product-module">
+              <div class="product-image">   </div>
+              <div class="product-text"><h3 class="styling">Product Name</h3></div>
+              <div class="product-text"><p class="styling">$5.99</p></div>
+            </div>
+
+            <div class="break"></div>
+
+            <div class="box-product-module">
+              <div class="product-image">     </div>
+              <div class="product-text"><h3 class="styling">Product Name</h3></div>
+              <div class="product-text"><p class="styling">$5.99</p></div>
+            </div>
+
+            <div class="box-product-module">
+              <div class="product-image">    </div>
+              <div class="product-text"><h3 class="styling">Product Name</h3></div>
+              <div class="product-text"><p class="styling">$5.99</p></div>
+            </div>
+
+            <div class="box-product-module">
+              <div class="product-image">   </div>
+              <div class="product-text"><h3 class="styling">Product Name</h3></div>
+              <div class="product-text"><p class="styling">$5.99</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h3>Website Grid Structure</h3>
+
+    <div class="container">
+      <div class="box-left">
+        <h4>Index page grid structure</h4>
+        <p class="subtitle"> what the index grid layout would look like </p>
+      </div>
+      <div class="box-right grid">
+          <div class="box">
+          <h1 class="styling">Company Title</h1>
+          </div>
+          <div class="main-search-bar">
+            <div class="main-search-bar-input"></div>
+            <div class="main-search-bar-button"></div>
+          </div>
+          <div class="box">
+            <nav class="main-nav-bar">
+              <div class="nav-bar-item"><a href="#">About</a></div>
+              <div class="nav-bar-item"><a href="#">Product</a></div>
+              <div class="nav-bar-item"><a href="#">Request</a></div>
+            </nav>
+          </div>
+          <div class="main-carousel"></div>
+          <div class="box categories">
+            <div class="main-categories"></div>
+            <div class="main-categories"></div>
+            <div class="main-categories"></div>
+            <div class="main-categories"></div>
+          </div>
+          <h2 class="styling">Welcome</h2>
+          <div class="box">
+            <div class="main-content-image"></div>
+            <div class="main-content-text"></div>
+          </div>
+          <div class="box">
+            <div class="main-content-image"></div>
+            <div class="main-content-text"></div>
+          </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="box-left">
+        <h4>Product page grid structure</h4>
+        <p class="subtitle"> what the product grid layout would look like </p>
+      </div>
+      <div class="box-right grid">
+        <div class="box">
+        <h1 class="styling">Company Title</h1>
+        </div>
+        <div class="main-search-bar">
+          <div class="main-search-bar-input"></div>
+          <div class="main-search-bar-button"></div>
+        </div>
+        <div class="box">
+          <nav class="main-nav-bar">
+            <div class="nav-bar-item"><a href="#">About</a></div>
+            <div class="nav-bar-item"><a href="#">Product</a></div>
+            <div class="nav-bar-item"><a href="#">Request</a></div>
+          </nav>
+        </div>
+        <div class="box categories">
+          <div class="product-filter-bar">Filter Bar</div>
+        </div>
+        <h2 class="styling">Product Type</h2>
+        <div class="box categories">
+          <div class="product-item-box">
+            <div class="product-item-box-image"></div>
+            <div class="product-item-box-text"></div>
+            <div class="product-item-box-price"></div>
+          </div>
+          <div class="product-item-box">
+            <div class="product-item-box-image"></div>
+            <div class="product-item-box-text"></div>
+            <div class="product-item-box-price"></div>
+          </div>
+          <div class="product-item-box">
+            <div class="product-item-box-image"></div>
+            <div class="product-item-box-text"></div>
+            <div class="product-item-box-price"></div>
+          </div>
+          <div class="product-item-box">
+            <div class="product-item-box-image"></div>
+            <div class="product-item-box-text"></div>
+            <div class="product-item-box-price"></div>
+          </div>
+          <div class="product-item-box">
+            <div class="product-item-box-image"></div>
+            <div class="product-item-box-text"></div>
+            <div class="product-item-box-price"></div>
+          </div>
+          <div class="product-item-box">
+            <div class="product-item-box-image"></div>
+            <div class="product-item-box-text"></div>
+            <div class="product-item-box-price"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="box-left">
+        <h4>Product details grid structure</h4>
+        <p class="subtitle"> what the product details grid layout would look like </p>
+      </div>
+      <div class="box-right grid">
+        <div class="box">
+          <h1 class="styling">Company Title</h1>
+        </div>
+        <div class="main-search-bar">
+          <div class="main-search-bar-input"></div>
+          <div class="main-search-bar-button"></div>
+        </div>
+        <div class="box">
+          <nav class="main-nav-bar">
+            <div class="nav-bar-item"><a href="#">About</a></div>
+            <div class="nav-bar-item"><a href="#">Product</a></div>
+            <div class="nav-bar-item"><a href="#">Request</a></div>
+          </nav>
+        </div>
+        <div class="box categories">
+          <div class="product-details-box-left">
+            <div class="product-details-image-large"></div>
+            <div class="box">
+              <div class="product-details-image-small"></div>
+              <div class="product-details-image-small"></div>
+              <div class="product-details-image-small"></div>
+            </div>
+          </div>
+          <div class="product-details-box-right">
+            <h2 class="styling">Product Name</h2>
+            <div class="product-details-text"></div>
+            <div class="product-details-text"></div>
+            <div class="product-details-button">Button</div>
+          </div>
+        </div>
+        <h3 class="styling review-heading">Reviews</h3>
+        <div class="box categories">
+          <div class="review-name"></div>
+          <div class="review-text"></div>
+          <div class="review-name"></div>
+          <div class="review-text"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="box-left">
+        <h4>Product request structure</h4>
+        <p class="subtitle"> what the product request grid layout would look like </p>
+      </div>
+      <div class="box-right grid">
+        <div class="box">
+          <h1 class="styling">Company Title</h1>
+        </div>
+        <div class="main-search-bar">
+          <div class="main-search-bar-input"></div>
+          <div class="main-search-bar-button"></div>
+        </div>
+        <div class="box">
+          <nav class="main-nav-bar">
+            <div class="nav-bar-item"><a href="#">About</a></div>
+            <div class="nav-bar-item"><a href="#">Product</a></div>
+            <div class="nav-bar-item"><a href="#">Request</a></div>
+          </nav>
+        </div>
+        <div class="form-request">
+          <div class="box form-r">
+          <div class="label-name"></div>
+          <div class="label-name-input"></div>
+          </div>
+          <div class="box form-r">
+          <div class="label-name"></div>
+          <div class="label-name-input"></div>
+          </div>
+          <div class="form-long-text"></div>
+          <div class="product-details-button"></div>
+        </div>
+      </div>
+    </div>
+
+    <h3>Sample Module</h3>
+
+    <div class="container">
+      <div class="box-left">
+        <h4>Shopping cart module</h4>
+        <p class="subtitle"> the shopping cart interface that will be implemented a sidebar </p>
+      </div>
+      <div class="box-right grid">
+        <div class="shopping-cart-frame">
+          <h3 class="styling">Shopping Cart</h3>
+          <ul>
+            <li>
+              <div class="list-name">item</div>
+              <div class="list-quantity">2</div>
+              <div class="list-remove-button">X</div>
+            </li>
+            <li>
+              <div class="list-name">item</div>
+              <div class="list-quantity">4</div>
+              <div class="list-remove-button">X</div>
+            </li>
+            <li>
+              <div class="list-name">item</div>
+              <div class="list-quantity">1</div>
+              <div class="list-remove-button">X</div>
+            </li>
+            <li>
+              <div class="list-name">item</div>
+              <div class="list-quantity">1</div>
+              <div class="list-remove-button">X</div>
+            </li>
+          </ul>
+          <div class="pay-button">
+          <button class="submit-button"> Pay </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  </body>
+</html>
