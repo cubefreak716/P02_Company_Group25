@@ -12,12 +12,17 @@ section {
 
 p {
 	text-align: left;
-	width: 75%;
+	/* width: 75%; */
 	padding: 1em;
 }
 
 li {
 	text-align: left;
+}
+
+h1{
+	padding: 0;
+	margin: 0;
 }
 
 .color-swatch {
@@ -50,33 +55,42 @@ li {
 .logo-text {
 	font-family: 'Teko', sans-serif;
 	text-decoration: none;
-	color: black;
+	color: white;
 	font-size: 3em;
-	background-color: rgb(209, 168, 121);
+	/* background-color: rgb(209, 168, 121); */
+	background-color: rgba(0, 0, 0,0.8);
 	border: 1px solid black;
+	padding-left: 0.5em;
+	padding-top: 0.4em;
+	padding-right: 0.5em;
+	padding-bottom: 0em;
 }
 
 .action-button {
-  background-color: rgb(153, 92, 49);
+  background-color: rgba(0,0,0,0.2);
   color: white;
-  border-style: solid;
-  border-color: black;
-  padding: 1em 2em;
+  padding: 0.4em 0.2em;
+	width:8em;
+	font-family: 'Oxygen',sans-serif;
+	font-size: 1em;
+	transition: background-color 1s ease-out;
+	border:0px;
 }
 
 .action-button:hover, .action-button:focus {
-	background-color: rgb(176, 111, 65)
+	background-color: rgba(0,0,0,0.8);
 }
 
 .nav-button{
 	text-align: center;
 	background-color: rgb(209, 168, 121);
 	text-align: center;
-	border: 1px solid black;
+	border: 1px solid white;
 	vertical-align: center;
 	text-decoration: none;
 	color: black;
 	font-size: 2em;
+	padding-top:0.6em;
 }
 
 .nav-button:hover, .nav-button:focus {
@@ -103,7 +117,6 @@ li {
 }
 
 img {
-	width: 40%;
 	height: auto;
 	display: block;
 	margin-bottom: 0;

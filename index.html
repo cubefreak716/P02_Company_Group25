@@ -10,6 +10,8 @@
     <link href="css/flexbox.css" rel="stylesheet">
     <!--Matilda's old css files-->
     <link href="css/flexbox-styleguide.css" rel="stylesheet">
+
+    <link href="css/main-matilda.css" rel="stylesheet">
   </head>
   <body>
 
@@ -19,7 +21,7 @@
       <a href="citations.html" class="nav-main-item citations box-item-nav"><h4>Citations</h4></a>
     </nav>
 
-    
+
       <h1>P02_</h1>
 
       <h2>Style Guide:</h2>
@@ -165,7 +167,7 @@
           <div class="box-right">
             <div class="box-right-top">
               <code>
-                &lt;button id="action-button"&gt;Do Thing&lt;/button&gt;
+                &lt;button class="action-button"&gt;Do Thing&lt;/button&gt;
               </code>
             </div>
             <div class="box-right-bottom">
@@ -245,7 +247,9 @@
             </div>
             <div class="box-right-bottom">
               <nav class="nav-main box">
-                <a href="index.html" class="logo-text nav-main-item box-item-logo ">Phalanx Studios</a>
+                <a href="index.html" class="nav-main-item">
+                  <h1 class="logo-text">Phalanx Studios</h1>
+                </a>
                 <a href="#" class="nav-main-item  box-item-nav nav-button">Browse</a>
                 <a href="#" class="nav-main-item  box-item-nav nav-button">Community</a>
                 <a href="#" class="nav-main-item  box-item-nav nav-button">About Us</a>
@@ -279,37 +283,249 @@
             </div>
           </div>
         </div>
-      </section>
+
 
       <!--Product Browser -->
       <div class="container">
         <div class="box-left">
-          <h4>Product Browser</h4>
-          <p class="subtitle"> product grid and layout </p>
+          <h4>Featured Product Browser</h4>
+          <p class="subtitle"> product grid and layout for index page</p>
         </div>
         <div class="box-right">
-          <div class="product-browser-main box">
-            <div class="product-browser-main-item">
-              <h3>Game Title</h3>
-              <p>Brief Description</p>
-            </div>
-            <div class="product-browser-main-item">
-              <h3>Game Title</h3>
-              <p>Brief Description</p>
-            </div>
-          </div>
-          <div class="product-browser-main box">
-            <div class="product-browser-main-item">
-              <h3>Game Title</h3>
-              <p>Brief Description</p>
-            </div>
-            <div class="product-browser-main-item">
-              <h3>Game Title</h3>
-              <p>Brief Description</p>
+          <div class="box-right-top">
+            <div class="module product-grid-index-page">
+              <div class="product-rectangle">
+                <!-- <img src="images/product-img/StarCraft_II_-_Box_Art.jpg" alt=""> -->
+                <div class="product-rectangle-text">
+                <h3 class="product-grid-heading">Game Name</h3>
+                <p class="product-grid-description">Brief description about the Game</p>
+                </div>
+              </div>
+              <div class="product-rectangle">
+                <!-- <img src="images/product-img/for-honor-game-art.jpg" alt=""> -->
+                <div class="product-rectangle-text">
+                <h3 class="product-grid-heading">Game Name</h3>
+                <p class="product-grid-description">Brief description about the Game</p>
+                </div>
+              </div>
+              <div class="product-rectangle">
+                <div class="product-rectangle-text">
+                <h3 class="product-grid-heading">Game Name</h3>
+                <p class="product-grid-description">Brief description about the Game</p>
+                </div>
+              </div>
+              <div class="product-rectangle">
+                <div class="product-rectangle-text">
+                <h3 class="product-grid-heading">Game Name</h3>
+                <p class="product-grid-description">Brief description about the Game</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
+      <!-- end of featured product grid container -->
+
+      <!--Product Browser 2 -->
+      <div class="container">
+        <div class="box-left">
+          <h4>Product Grid</h4>
+          <p class="subtitle"> product grid showcasing all games </p>
+        </div>
+        <div class="box-right">
+          <div class="box-right-top">
+            <h2 class="center-header"> Games </h2>
+            <div class="line-center"></div>
+            <div class="module product-grid-product-page">
+              <div class="product-square">
+                <div class="product-square-text">
+                <h3 class="product-grid-heading">Game Name</h3>
+                <p class="product-grid-description">Brief description about the Game</p>
+                </div>
+              </div>
+              <div class="product-square">
+                <div class="product-square-text">
+                <h3 class="product-grid-heading">Game Name</h3>
+                <p class="product-grid-description">Brief description about the Game</p>
+                </div>
+              </div>
+              <div class="break"></div>
+              <div class="product-square">
+                <div class="product-square-text">
+                <h3 class="product-grid-heading">Game Name</h3>
+                <p class="product-grid-description">Brief description about the Game</p>
+                </div>
+              </div>
+              <div class="product-square">
+                <div class="product-square-text">
+                <h3 class="product-grid-heading">Game Name</h3>
+                <p class="product-grid-description">Brief description about the Game</p>
+                </div>
+              </div>
+              <div class="break"></div>
+              <div class="product-square">
+                <div class="product-square-text">
+                <h3 class="product-grid-heading">Game Name</h3>
+                <p class="product-grid-description">Brief description about the Game</p>
+                </div>
+              </div>
+              <div class="product-square">
+                <div class="product-square-text">
+                <h3 class="product-grid-heading">Game Name</h3>
+                <p class="product-grid-description">Brief description about the Game</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of product grid container -->
+
+      <!--Text Box -->
+      <div class="container">
+        <div class="box-left">
+          <h4>Text boxes</h4>
+          <p class="subtitle"> General modules where text is most prominent </p>
+        </div>
+        <div class="box-right">
+          <div class="box-right-top">
+            <div class="module text-box">
+              <h2>Company Mission</h2>
+              <div class="line"></div>
+              <p class="content">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Cras mauris est, dictum in eleifend ac, porta eget urna.
+                Sed bibendum sapien sit amet arcu semper maximus id a mi.
+                Vestibulum quis lacus at enim maximus sodales.
+                In pharetra ligula sit amet nibh dapibus hendrerit.
+                Integer tempus lorem mauris. Nam eleifend neque diam.
+                Pellentesque nec varius tortor.
+                Proin luctus eros non leo rutrum, vel aliquam est dictum.
+                Vivamus tincidunt vehicula nulla a consequat.
+              </p>
+              <div class="action-bar">
+                <button class="action-button">More</button>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      <!-- end of text box container -->
+
+      <!--Review Box -->
+      <div class="container">
+        <div class="box-left">
+          <h4>Review Section</h4>
+          <p class="subtitle"> review layout on product detail page </p>
+        </div>
+        <div class="box-right">
+          <div class="box-right-top">
+            <!--sample code here-->
+            <div class="module review-box">
+              <div class="user-info">
+                <div class="user-info-player-name">John Jones</div>
+                <div class="user-info-player-type">Veteren Player</div>
+              </div>
+              <div class="line-vertical"></div>
+              <div class="review-content">
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Cras mauris est, dictum in eleifend ac, porta eget urna.
+                Sed bibendum sapien sit amet arcu semper maximus id a mi.
+                Vestibulum quis lacus at enim maximus sodales.
+                </p>
+              </div>
+              <div class="review-rating">
+                  <div class="temp-stars star-fill"></div>
+                  <div class="temp-stars star-fill"></div>
+                  <div class="temp-stars star-fill"></div>
+                  <div class="temp-stars star-fill"></div>
+                  <div class="temp-stars"></div>
+                  <div class="break"></div>
+                  <div class="rating-summary"><p>Good</p></div>
+              </div>
+            </div>
+            <div class="module review-box">
+              <div class="user-info">
+                <div class="user-info-player-name">Bobby Bones</div>
+                <div class="user-info-player-type">New Player</div>
+              </div>
+              <div class="line-vertical"></div>
+              <div class="review-content">
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Cras mauris est, dictum in eleifend ac, porta eget urna.
+                Sed bibendum sapien sit amet arcu semper maximus id a mi.
+                Vestibulum quis lacus at enim maximus sodales.
+                </p>
+              </div>
+              <div class="review-rating">
+                  <div class="temp-stars star-fill"></div>
+                  <div class="temp-stars"></div>
+                  <div class="temp-stars"></div>
+                  <div class="temp-stars"></div>
+                  <div class="temp-stars"></div>
+                  <div class="break"></div>
+                  <div class="rating-summary"><p>Poor</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of review container -->
+
+      <!--Shopping cart -->
+      <div class="container">
+        <div class="box-left">
+          <h4>Shopping Cart</h4>
+          <p class="subtitle"> shopping cart and payment form </p>
+        </div>
+        <div class="box-right">
+          <div class="box-right-top">
+            <h2>Cart</h2>
+            <div class="shopping-cart-box">
+              <div class="shopping-cart-row">
+                <div class="line-vertical"></div>
+                <div class="cart-item-image">Image</div>
+                <div class="cart-item-name">Game Name</div>
+                <div class="cart-item-price">
+                  <div class="price">$X.XX</div>
+                  <div class="cart-item-remove-button"></div>
+                </div>
+              </div>
+              <div class="shopping-cart-row">
+                <div class="line-vertical"></div>
+                <div class="cart-item-image">Image</div>
+                <div class="cart-item-name">Game Name</div>
+                <div class="cart-item-price">
+                  <div class="price">$X.XX</div>
+                  <div class="cart-item-remove-button"></div>
+                </div>
+              </div>
+              <div class="shopping-cart-row">
+                <div class="line-vertical"></div>
+                <div class="cart-item-image">Image</div>
+                <div class="cart-item-name">Game Name</div>
+                <div class="cart-item-price">
+                  <div class="price">$X.XX</div>
+                  <div class="cart-item-remove-button"></div>
+                </div>
+              </div>
+              <div class="shopping-cart-row">
+                <div class="price-empty-space"></div>
+                <div class="price-total">
+                  <div class="line-total-price"></div>
+                  Total:$X.XX
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of shopping cart container -->
+  </section>
+
 
   </body>
 </html>
