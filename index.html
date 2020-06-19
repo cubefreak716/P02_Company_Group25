@@ -12,6 +12,7 @@
     <link href="css/flexbox-styleguide.css" rel="stylesheet">
 
     <link href="css/main-matilda.css" rel="stylesheet">
+    <link href="css/main-morgan.css" rel="stylesheet">
   </head>
   <body>
 
@@ -232,10 +233,6 @@
         </div>
       </section>
 
-      <h2>Style Guide:</h2>
-      <section class="basic-interactive-elements">
-
-        <h3>Navigation</h3>
         <!--Navigation bar -->
         <div class="container">
           <div class="box-left">
@@ -244,12 +241,21 @@
           </div>
           <div class="box-right">
             <div class="box-right-top">
-                <!--sample code here-->
+                <code>
+                  &lt;nav class="nav-main box"&gt; <br/>
+                  &lt;a href="index.html" class ="nav-main-item logo-text"&gt; <br/>
+                  &lt;h1&gt;Phalanx Studios &lt;/h1&gt; <br/>
+                  &lt;/a&gt; <br/>
+                  &lt;a href="#" class="nav-main-item box-item-nav nav-button"&gt;Browse&lt;/a&gt;<br/>
+                  &lt;code&gt;Community&lt;/a&gt;<br/>
+                  &lt;code&gt;About Us&lt;/a&gt;<br/>
+                  &lt;/nav&gt;
+                </code>
             </div>
             <div class="box-right-bottom">
               <nav class="nav-main box">
-                <a href="index.html" class="nav-main-item">
-                  <h1 class="logo-text">Phalanx Studios</h1>
+                <a href="index.html" class="nav-main-item logo-text">
+                  <h1>Phalanx Studios</h1>
                 </a>
                 <a href="#" class="nav-main-item  box-item-nav nav-button">Browse</a>
                 <a href="#" class="nav-main-item  box-item-nav nav-button">Community</a>
@@ -259,6 +265,96 @@
           </div>
         </div>
 
+        <!--Footer bar -->
+        <div class="container">
+          <div class="box-left">
+            <h4>Footer</h4>
+            <p class="subtitle"> Footer located on bottom of each page </p>
+          </div>
+          <div class="box-right">
+            <div class="box-right-top">
+                <code>
+                  &lt;div class="footer-main box&gt; <br/>
+                  &lt;h4 class="footer-main-item"&gt;Phalanx Studios, Copyright Information, all rights reserved, etc.&lt;/h4&gt;<br/>
+                  &lt;h4 class="footer-main-item"&gt;Company Address: 11111 111 st City, Province, Canada&lt;/h4&gt;<br/>
+                  &lt;div class="footer-main-item"&gt; <br/>
+                  &lt;h4&gt;Office Phone: 604 111 1111&ht;/h4&gt;<br/>
+                  &lt;h4&gt;Email Us: phalanx_studios@example.com&ht;/h4&gt; <br/>
+                  &lt;/div&gt; <br/>
+                  &lt;/div&gt;
+                </code>
+            </div>
+            <div class="box-right-bottom">
+              <div class="footer-main box">
+                <h4 class="footer-main-item">Phalanx Studios, Copyright Information, all rights reserved, etc.</h4>
+                <h4 class="footer-main-item">Company Address: 11111 111 st City, Province, Canada</h4>
+                <div class="footer-main-item">
+                  <h4>Office Phone: 604 111 1111</h4>
+                  <h4>Email Us: phalanx_studios@example.com</h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!--Image Carousel -->
+        <div class="container">
+          <div class="box-left">
+            <h4>Image Carousel</h4>
+            <p class="subtitle">Image gallery to display multiple photos while conserving space</p>
+          </div>
+          <div class="box-right">
+            <div class="box-right-top">
+                <code>
+                  &lt;div class="image-carousel"&gt; <br/>
+                  &lt;div class="gallery"&gt; <br/>
+                  &lt;img class="gallery_img" id="image-1" src="images/placeholder.jpg"&gt; <br/>
+                  &lt;img class="gallery_img" id="image-2" src="images/placeholder2.jpg"&gt; <br/>
+                  &lt;img class="gallery_img" id="image-3" src="images/placeholder3.jpg"&gt; <br/>
+                  &lt;/div&gt; <br/>
+                  &lt;nav class="carousel-nav"&gt; <br/>
+                  &lt;div class="carousel-scroll"&gt; <br/>
+                  &lt;a class="carousel-nav-item" href="#image-1"&gt; <br/>
+                  &lt;img src="images/placeholder.jpg"&gt; <br/>
+                  &lt;/a&gt; <br/>
+                  &lt;a class="carousel-nav-item" href="#image-2"&gt; <br/>
+                  &lt;img src="images/placeholder2.jpg"&gt; <br/>
+                  &lt;/a&gt; <br/>
+                  &lt;a class="carousel-nav-item" href="#image-3"&gt; <br/>
+                  &lt;img src="images/placeholder3.jpg"&gt; <br/>
+                  &lt;/a&gt; <br/>
+                  &lt;/div&gt; <br/>
+                  &lt;/nav&gt; <br/>
+                  &lt;/div&gt; 
+                </code>
+            </div>
+            <div class="box-right-bottom">
+              <div class="image-carousel">
+                <div class="gallery">
+                  <img class="gallery_img" id="image-1" src="images/placeholder.jpg">
+                  <img class="gallery_img" id="image-2" src="images/placeholder2.jpg">
+                  <img class="gallery_img" id="image-3" src="images/placeholder3.jpg">
+                </div>
+
+                <nav class="carousel-nav">
+                  <div class="carousel-scroll">
+                  <a class="carousel-nav-item" href="#image-1">
+                    <img src="images/placeholder.jpg">
+                  </a>
+                  <a class="carousel-nav-item" href="#image-2">
+                    <img src="images/placeholder2.jpg">
+                  </a>
+                  <a class="carousel-nav-item" href="#image-3">
+                    <img src="images/placeholder3.jpg">
+                  </a>
+                  </div>
+                </nav>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
         <!--Product listing -->
         <div class="container">
           <div class="box-left">
@@ -267,37 +363,96 @@
           </div>
           <div class="box-right">
             <div class="box-right-top">
-            <div class="product-main box">
-              <div class="product-main-item product-main-1">
-                <div class="product-rectangle"></div>
-                <div class="break"></div>
-                <div class="thumbnails module">
-                  <div class="product-rectangle">
+              <code>                
+                  &lt;div class="product-main box"&gt; <br/>
+                  &lt;div class="product-main-item product-main-1"&gt; <br/>
+                
+                  &lt;div class="image-carousel"&gt; <br/>
+                  &lt;div class="gallery"&gt; <br/>
+                  &lt;img class="gallery_img" id="image-1" src="images/placeholder.jpg"&gt; <br/>
+                  &lt;img class="gallery_img" id="image-2" src="images/placeholder2.jpg"&gt; <br/>
+                  &lt;img class="gallery_img" id="image-3" src="images/placeholder3.jpg"&gt; <br/>
+                  &lt;/div&gt; <br/>
+                  &lt;nav class="carousel-nav"&gt; <br/>
+                  &lt;div class="carousel-scroll"&gt; <br/>
+                  &lt;a class="carousel-nav-item" href="#image-1"&gt; <br/>
+                  &lt;img src="images/placeholder.jpg"&gt; <br/>
+                  &lt;/a&gt; <br/>
+                  &lt;a class="carousel-nav-item" href="#image-2"&gt; <br/>
+                  &lt;img src="images/placeholder2.jpg"&gt; <br/>
+                  &lt;/a&gt; <br/>
+                  &lt;a class="carousel-nav-item" href="#image-3"&gt; <br/>
+                  &lt;img src="images/placeholder3.jpg"&gt; <br/>
+                  &lt;/a&gt; <br/>
+                  &lt;/div&gt; <br/>
+                  &lt;/nav&gt; <br/>
+                  &lt;/div&gt; <br/>
+
+                  &lt;div class="product-main-item product-main-2"&gt; <br/>
+
+                  &lt;h2&gt;Game Title&lt;/h2&gt; <br/>
+                  &lt;p&gt;This is a description of a game. It is a very interesting game.
+                    It is about ancient things, and it's super cool. You should buy and play it.
+                    Seriously, you won't regret it. it has many entertaining features that will make you happy.
+                    For example, you can do things. These things are fun. Play this game.&lt;/p&gt; <br/>
+                  &lt;button class="action-button"&gt;Purchase&lt;/button&gt; <br/>
+                  &lt;button class="action-button"&gt;Reviews&lt;/button&gt; <br/>
+                  &lt;h4&gt;System Specifications&lt;/h4&gt; <br/>
+                  &lt;ul&gt;<br/>
+                  &lt;li&gt;Your computer needs this to play&lt;/li&gt; <br/>
+                  &lt;li&gt;This as well&lt;/li&gt; <br/>
+                  &lt;li&gt;Also this &lt;/li&gt; <br/>
+                  &lt;li&gt;This is also needed&lt;/li&gt; <br/>
+                  &lt;/ul&gt;<br/>
+                  &lt;/div&gt;<br/>
+                  &lt;/div&gt;
+              </code>
+            </div>
+            <div class="box-right-bottom">
+              <div class="product-main box">
+                <div class="product-main-item product-main-1">
+                  <div class="image-carousel">
+                    <div class="gallery">
+                      <img class="gallery_img" id="image-1" src="images/placeholder.jpg">
+                      <img class="gallery_img" id="image-2" src="images/placeholder2.jpg">
+                      <img class="gallery_img" id="image-3" src="images/placeholder3.jpg">
+                    </div>
+
+                    <nav class="carousel-nav">
+                      <div class="carousel-scroll">
+                      <a class="carousel-nav-item" href="#image-1">
+                        <img src="images/placeholder.jpg">
+                      </a>
+                      <a class="carousel-nav-item" href="#image-2">
+                        <img src="images/placeholder2.jpg">
+                      </a>
+                      <a class="carousel-nav-item" href="#image-3">
+                        <img src="images/placeholder3.jpg">
+                      </a>
+                      </div>
+                    </nav>
                   </div>
-                  <div class="product-rectangle"></div>
-                  <div class="product-rectangle"></div>
-                  <div class="product-rectangle"></div>
+                </div>
+                <div class="product-main-item product-main-2">
+                  <h2>Game Title</h2>
+                  <p>This is a description of a game. It is a very interesting game.
+                    It is about ancient things, and it's super cool. You should buy and play it.
+                    Seriously, you won't regret it. it has many entertaining features that will make you happy.
+                    For example, you can do things. These things are fun. Play this game.
+                  </p>
+
+                  <button class="action-button">Purchase</button>
+                  <button class="action-button">Reviews</button>
+                  <h4>System Specifications</h4>
+                  <ul>
+                    <li>Your computer needs this to play</li>
+                    <li>This as well</li>
+                    <li>Also this</li>
+                    <li>This is also needed</li>
+                  </ul>
                 </div>
               </div>
-              <div class="product-main-item product-main-2">
-                <h2>Game Title</h2>
-                <p>This is a description of a game. It is a very interesting game.
-                  It is about ancient things, and it's super cool. You should buy and play it.
-                  Seriously, you won't regret it. it has many entertaining features that will make you happy.
-                  For example, you can do things. These things are fun. Play this game.
-                </p>
-
-                <button class="action-button">Purchase</button>
-                <button class="action-button">Reviews</button>
-                <h4>System Specifications</h4>
-                <ul>
-                  <li>Your computer needs this to play</li>
-                  <li>This as well</li>
-                  <li>Also this</li>
-                  <li>This is also needed</li>
-                </ul>
-              </div>
-            </div>
+            
             </div>
           </div>
         </div>
@@ -312,6 +467,38 @@
         </div>
         <div class="box-right">
           <div class="box-right-top">
+            <code>
+              &lt;div class="module product-grid-index-page"&gt;<br/>
+                &lt;div class="product-rectangle"&gt;<br/>
+                  <!-- <img src="images/product-img/StarCraft_II_-_Box_Art.jpg" alt=""> -->
+                  &lt;div class="product-rectangle-text"&gt;<br/>
+                  &lt;h3 class="product-grid-heading"&gt;Game Name&lt;/h3&gt;<br/>
+                  &lt;p class="product-grid-description"&gt;Brief description about the Game&lt;/p&gt;<br/>
+                  &lt;/div&gt;<br/>
+                &lt;/div&gt;<br/>
+                &lt;div class="product-rectangle"&gt;<br/>
+                  <!-- <img src="images/product-img/for-honor-game-art.jpg" alt=""> -->
+                  &lt;div class="product-rectangle-text"&gt;<br/>
+                  &lt;h3 class="product-grid-heading"&gt;Game Name&lt;/h3&gt;<br/>
+                  &lt;p class="product-grid-description"&gt;Brief description about the Game&lt;/p&gt;<br/>
+                  &lt;/div&gt;<br/>
+                &lt;/div&gt;<br/>
+                &lt;div class="product-rectangle"&gt;<br/>
+                  &lt;div class="product-rectangle-text"&gt;<br/>
+                  &lt;h3 class="product-grid-heading"&gt;Game Name&lt;/h3&gt;<br/>
+                  &lt;p class="product-grid-description"&gt;Brief description about the Game&lt;/p&gt;<br/>
+                  &lt;/div&gt;<br/>
+                &lt;/div&gt;<br/>
+                &lt;div class="product-rectangle"&gt;<br/>
+                  &lt;div class="product-rectangle-text"&gt;<br/>
+                  &lt;h3 class="product-grid-heading"&gt;Game Name&lt;/h3&gt;<br/>
+                  &lt;p class="product-grid-description"&gt;Brief description about the Game&lt;/p&gt;<br/>
+                 &lt;/div&gt;<br/>
+                &lt;/div&gt;<br/>
+              &lt;/div&gt;<br/>
+            </code>
+          </div>
+          <div class="box-right-bottom">
             <div class="module product-grid-index-page">
               <div class="product-rectangle">
                 <!-- <img src="images/product-img/StarCraft_II_-_Box_Art.jpg" alt=""> -->
@@ -353,7 +540,55 @@
           and short description </p>
         </div>
         <div class="box-right">
+
           <div class="box-right-top">
+            <code>
+            &lt;h2 class="center-header"&gt; Games &lt;/h2&gt;<br/>
+            &lt;div class="line-center"&gt;&lt;/div&gt;<br/>
+            &lt;div class="module product-grid-product-page"&gt;<br/>
+              &lt;div class="product-square"&gt;<br/>
+                &lt;div class="product-square-text"&gt;<br/>
+                &lt;h3 class="product-grid-heading"&gt;Game Name&lt;/h3&gt;<br/>
+                &lt;p class="product-grid-description"&gt;Brief description about the Game&lt;/p&gt;<br/>
+                &lt;/div&gt;<br/>
+              &lt;/div&gt;<br/>
+              &lt;div class="product-square"&gt;<br/>
+                &lt;div class="product-square-text"&gt;<br/>
+                &lt;h3 class="product-grid-heading"&gt;Game Name&lt;/h3&gt;<br/>
+                &lt;p class="product-grid-description"&gt;Brief description about the Game&lt;/p&gt;<br/>
+                &lt;/div&gt;<br/>
+              &lt;/div&gt;<br/>
+              &lt;div class="break"&gt;&lt;/div&gt;<br/>
+              &lt;div class="product-square"&gt;<br/>
+                &lt;div class="product-square-text"&gt;<br/>
+                &lt;h3 class="product-grid-heading"&gt;Game Name&lt;/h3&gt;<br/>
+                &lt;p class="product-grid-description"&gt;Brief description about the Game&lt;/p&gt;<br/>
+                &lt;/div&gt;<br/>
+              &lt;/div&gt;<br/>
+              &lt;div class="product-square"&gt;<br/>
+                &lt;div class="product-square-text"&gt;<br/>
+                &lt;h3 class="product-grid-heading"&gt;Game Name&lt;/h3&gt;<br/>
+                &lt;p class="product-grid-description"&gt;Brief description about the Game&lt;/p&gt;<br/>
+                &lt;/div&gt;<br/>
+              &lt;/div&gt;<br/>
+              &lt;div class="break">&lt;/div&gt;<br/>
+              &lt;div class="product-square"&gt;<br/>
+                &lt;div class="product-square-text"&gt;<br/>
+                &lt;h3 class="product-grid-heading"&gt;Game Name&lt;/h3&gt;<br/>
+                &lt;p class="product-grid-description"&gt;Brief description about the Game&lt;/p&gt;<br/>
+                &lt;/div&gt;<br/>
+              &lt;/div&gt;<br/>
+              &lt;div class="product-square"&gt;<br/>
+                &lt;div class="product-square-text"&gt;<br/>
+                &lt;h3 class="product-grid-heading"&gt;Game Name&lt;/h3&gt;<br/>
+                &lt;p class="product-grid-description"&gt;Brief description about the Game&lt;/p&gt;<br/>
+                &lt;/div&gt;<br/>
+              &lt;/div&gt;<br/>
+            &lt;/div&gt;
+            </code>
+          </div>
+
+          <div class="box-right-bottom">
             <h2 class="center-header"> Games </h2>
             <div class="line-center"></div>
             <div class="module product-grid-product-page">
@@ -408,7 +643,43 @@
           <p class="subtitle"> news grid showcasing events and promotions </p>
         </div>
         <div class="box-right">
+
           <div class="box-right-top">
+            <code>
+              &lt;div class="event-grid module"&gt;<br/>
+                &lt;div class="event-rectangle-main"&gt;<br/>
+
+                &lt;/div&gt;<br/>
+                &lt;div class="event-rectangle-secondary module"&gt;<br/>
+                  &lt;div class="event-rectangle-sections longer"&gt;<br/>
+                    &lt;h3>Events&lt;/h3&gt;<br/>
+                    &lt;p&gt;<br/>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Cras mauris est, dictum in eleifend ac, porta eget urna.
+                    Sed bibendum sapien sit amet arcu semper maximus id a mi.
+                    Vestibulum quis lacus at enim maximus sodales.
+                    In pharetra ligula sit amet nibh dapibus hendrerit.
+                    Integer tempus lorem mauris. Nam eleifend neque diam.
+                    &lt;/p&gt;<br/>
+                  &lt;/div&gt;<br/>
+                  &lt;div class="event-rectangle-sections">&lt;/div&gt;<br/>
+                  &lt;div class="break">&lt;/div&gt;<br/>
+                  &lt;div class="event-rectangle-sections"&gt;&lt;/div&gt;<br/>
+                  &lt;div class="event-rectangle-sections longer"&gt;<br/>
+                    &lt;h3&gt;News&lt;/h3&gt;<br/>
+                    &lt;p&gt;<br/>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Cras mauris est, dictum in eleifend ac, porta eget urna.
+                    Sed bibendum sapien sit amet arcu semper maximus id a mi.
+                    Vestibulum quis lacus at enim maximus sodales.
+                    &lt;/p&gt;<br/>
+                  &lt;/div&gt;<br/>
+                &lt;/div&gt;<br/>
+              &lt;/div&gt;
+            </code>
+          </div>
+
+          <div class="box-right-bottom">
             <div class="event-grid module">
               <div class="event-rectangle-main">
 
@@ -451,7 +722,31 @@
           <p class="subtitle"> General modules where text is most prominent </p>
         </div>
         <div class="box-right">
+
           <div class="box-right-top">
+            <code>              
+              &lt;div class="module text-box"&gt;<br/>
+                &lt;h2&gt;Company Mission&lt;/h2&gt;<br/>
+                &lt;div class="line"&gt;&lt;/div&gt;<br/>
+                &lt;p class="content"&gt;<br/>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Cras mauris est, dictum in eleifend ac, porta eget urna.
+                  Sed bibendum sapien sit amet arcu semper maximus id a mi.
+                  Vestibulum quis lacus at enim maximus sodales.
+                  In pharetra ligula sit amet nibh dapibus hendrerit.
+                  Integer tempus lorem mauris. Nam eleifend neque diam.
+                  Pellentesque nec varius tortor.
+                  Proin luctus eros non leo rutrum, vel aliquam est dictum.
+                  Vivamus tincidunt vehicula nulla a consequat.<br/>
+                &lt;/p&gt;<br/>
+                &lt;div class="action-bar"&gt;<br/>
+                  &lt;button class="action-button"&gt;More&lt;/button&gt;<br/>
+                &lt;/div&gt;<br/>
+              &lt;/div&gt;
+            </code>
+          </div>
+
+          <div class="box-right-bottom">
             <div class="module text-box">
               <h2>Company Mission</h2>
               <div class="line"></div>
@@ -483,8 +778,63 @@
           <p class="subtitle"> review layout on product detail page </p>
         </div>
         <div class="box-right">
+
           <div class="box-right-top">
-            <!--sample code here-->
+            <code>              
+
+            &lt;div class="module review-box"&gt;<br/>
+              &lt;div class="user-info"&gt;<br/>
+                &lt;div class="user-info-player-name"&gt;John Jones&lt;/div&gt;<br/>
+                &lt;div class="user-info-player-type"&gt;Veteren Player&lt;/div&gt;<br/>
+              &lt;/div&gt;<br/><br/>
+              &lt;div class="line-vertical"&gt;&lt;/div&gt;<br/>
+              &lt;div class="review-content"&gt;<br/>
+                &lt;p&gt;<br/>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Cras mauris est, dictum in eleifend ac, porta eget urna.
+                Sed bibendum sapien sit amet arcu semper maximus id a mi.
+                Vestibulum quis lacus at enim maximus sodales.<br/>
+                &lt;/p&gt;<br/>
+              &lt;/div&gt;<br/>
+              &lt;div class="review-rating"&gt;<br/>
+                  &lt;div class="temp-stars star-fill"&gt;&lt;/div&gt;<br/>
+                  &lt;div class="temp-stars star-fill"&gt;&lt;/div&gt;<br/>
+                  &lt;div class="temp-stars star-fill"&gt;&lt;/div&gt;<br/>
+                  &lt;div class="temp-stars star-fill"&gt;&lt;/div&gt;<br/>
+                  &lt;div class="temp-stars"&gt;&lt;/div&gt;<br/>
+                  &lt;div class="break"&gt;&lt;/div&gt;<br/>
+                  &lt;div class="rating-summary"&gt;&lt;p&gt;Good&lt;/p&gt;&lt;/div&gt;<br/>
+              &lt;/div&gt;<br/>
+            &lt;/div&gt;<br/>
+            &lt;div class="module review-box"&gt;<br/>
+              &lt;div class="user-info"&gt;<br/>
+                &lt;div class="user-info-player-name"&gt;Bobby Bones&lt;/div&gt;<br/>
+                &lt;div class="user-info-player-type"&gt;New Player&lt;/div&gt;<br/>
+              &lt;/div&gt;<br/>
+              &lt;div class="line-vertical"&gt;&lt;/div&gt;<br/>
+              &lt;div class="review-content"&gt;<br/>
+                &lt;p&gt;<br/>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Cras mauris est, dictum in eleifend ac, porta eget urna.
+                Sed bibendum sapien sit amet arcu semper maximus id a mi.
+                Vestibulum quis lacus at enim maximus sodales.<br/>
+                &lt;/p&gt;<br/>
+              &lt;/div&gt;<br/>
+              &lt;div class="review-rating"&gt;<br/>
+                  &lt;div class="temp-stars star-fill"&gt;&lt;/div&gt;<br/>
+                  &lt;div class="temp-stars"&gt;&lt;/div&gt;<br/>
+                  &lt;div class="temp-stars"&gt;&lt;/div&gt;<br/>
+                  &lt;div class="temp-stars"&gt;&lt;/div&gt;<br/>
+                  &lt;div class="temp-stars"&gt;&lt;/div&gt;<br/>
+                  &lt;div class="break"&gt;&lt;/div&gt;<br/>
+                  &lt;div class="rating-summary"&gt;&lt;p&gt;Poor&lt;/p&gt;&lt;/div&gt;<br/>
+              &lt;/div&gt;<br/>
+            &lt;/div&gt;
+
+            </code>
+          </div>
+
+          <div class="box-right-bottom">
             <div class="module review-box">
               <div class="user-info">
                 <div class="user-info-player-name">John Jones</div>
@@ -546,6 +896,47 @@
         </div>
         <div class="box-right">
           <div class="box-right-top">
+            <code>
+            &lt;h2&gt;Cart&lt;/h2&gt;<br/>
+            &lt;div class="shopping-cart-box"&gt;<br/>
+              &lt;div class="shopping-cart-row"&gt;<br/>
+                &lt;div class="line-vertical"&gt;&lt;/div&gt;<br/>
+                &lt;div class="cart-item-image"&gt;Image&lt;/div&gt;<br/>
+                &lt;div class="cart-item-name"&gt;Game Name&lt;/div&gt;<br/>
+                &lt;div class="cart-item-price"&gt;<br/>
+                  &lt;div class="price"&gt;$X.XX&lt;/div&gt;<br/>
+                  &lt;div class="cart-item-remove-button"&gt;&lt;/div&gt;<br/>
+                &lt;/div&gt;<br/>
+              &lt;/div&gt;<br/>
+              &lt;div class="shopping-cart-row"&gt;<br/>
+                &lt;div class="line-vertical"&gt;&lt;/div&gt;<br/>
+                &lt;div class="cart-item-image"&gt;Image&lt;/div&gt;<br/>
+                &lt;div class="cart-item-name"&gt;Game Name&lt;/div&gt;<br/>
+                &lt;div class="cart-item-price"&gt;<br/>
+                  &lt;div class="price"&gt;$X.XX&lt;/div&gt;<br/>
+                  &lt;div class="cart-item-remove-button"&gt;&lt;/div&gt;<br/>
+                &lt;/div&gt;<br/>
+              &lt;/div&gt;<br/>
+              &lt;div class="shopping-cart-row"&gt;<br/>
+                &lt;div class="line-vertical"&gt;&lt;/div&gt;<br/>
+                &lt;div class="cart-item-image"&gt;Image&lt;/div&gt;<br/>
+                &lt;div class="cart-item-name"&gt;Game Name&lt;/div&gt;<br/>
+                &lt;div class="cart-item-price"&gt;<br/>
+                  &lt;div class="price"&gt;$X.XX&lt;/div&gt;<br/>
+                  &lt;div class="cart-item-remove-button"&gt;&lt;/div&gt;<br/>
+                &lt;/div&gt;<br/>
+              &lt;/div&gt;<br/>
+              &lt;div class="shopping-cart-row"&gt;<br/>
+                &lt;div class="price-empty-space"&gt;&lt;/div&gt;<br/>
+                &lt;div class="price-total"&gt;<br/>
+                  &lt;div class="line-total-price"&gt;&lt;/div&gt;<br/>
+                  Total:$X.XX
+                &lt;/div&gt;<br/>
+              &lt;/div&gt;<br/>
+            &lt;/div&gt;
+            </code>
+          </div>
+          <div class="box-right-bottom">
             <h2>Cart</h2>
             <div class="shopping-cart-box">
               <div class="shopping-cart-row">
@@ -596,6 +987,54 @@
         </div>
         <div class="box-right">
           <div class="box-right-top">
+            <code>
+              &lt;h2&gt;Payment Information&lt;/h2&gt;<br/>
+                &lt;form id="payment"&gt;<br/>
+                  <!-- Personal Info -->
+                  &lt;div class="line-vertical">&nbsp;&lt;/div&gt;<br/>
+                  &lt;label for="fname" class="p-info"&gt;Full name&lt;/label&gt;<br/>
+                  &lt;input type="text" id="fname" class="textfield" name="fname"&gt;<br/>
+                  &lt;div class="break"&gt;&lt;/div&gt;<br/>
+                  &lt;div class="line-vertical"&gt;&nbsp;&lt;/div&gt;<br/>
+                  &lt;label for="address" class="p-info">Address&lt;/label&gt;<br/>
+                  &lt;input type="text" id="address" class="textfield" name="address"&gt;<br/>
+                  &lt;div class="break"&gt;&lt;/div&gt;<br/>
+                  &lt;div class="line-vertical"&gt;&nbsp;&lt;/div&gt;<br/>
+                  &lt;label for="postal" class="p-info">Postal Code&lt;/label&gt;<br/>
+                  &lt;input type="text" id="postal" class="textfield" name="postal"&gt;<br/>
+                  &lt;div class="break"&gt;&lt;/div&gt;<br/>
+                  &lt;div class="line-vertical"&gt;&nbsp;&lt;/div&gt;<br/>
+                  &lt;label for="city" class="p-info"&gt;City&lt;/label&gt;<br/>
+                  &lt;input type="text" id="city" class="textfield" name="city"&gt;<br/>
+                  &lt;div class="break"&gt;&lt;/div&gt;<br/>
+                  &lt;div class="line-vertical"&gt;&nbsp;&lt;/div&gt;<br/>
+                  &lt;label for="text" class="p-info"&gt;Country&lt;/label&gt;<br/>
+                  &lt;input type="text" id="country" class="textfield" name="country"&gt;<br/>
+                  &lt;div class="break"&gt;&lt;/div&gt;<br/>
+                  &lt;div class="line-vertical"&gt;&nbsp;&lt;/div&gt;<br/>
+                  &lt;label for="telphone" class="p-info"&gt;Telephone #&lt;/label&gt;<br/>
+                  &lt;input type="text" id="telphone" class="textfield" name="telphone"&gt;<br/>
+                  &lt;div class="break"&gt;&lt;/div&gt;<br/>
+
+                  <!-- payment method -->
+                  &lt;label for="visa" class="radio"&gt;Visa&lt;/label&gt;<br/>
+                  &lt;label for="mastercard" class="radio"&gt;Mastercard&lt;/label&gt;<br/>
+                  &lt;label for="paypal" class="radio"&gt;Paypal&lt;/label&gt;<br/>
+                  &lt;label for="other" class="radio"&gt;Other&lt;/label&gt;<br/>
+                  &lt;div class="break"&gt;&lt;/div&gt;<br/>
+                  &lt;input type="radio" id="visa" class="radio" name="credit" value="visa"&gt;<br/>
+                  &lt;input type="radio" id="mastercard" class="radio" name="credit" value="mastercard"&gt;<br/>
+                  &lt;input type="radio" id="paypal" class="radio" name="credit" value="paypal"&gt;<br/>
+                  <&lt;input type="radio" id="other" class="radio" name="credit" value="other"&gt;<br/>
+
+                  <!-- Submit button -->
+                  &lt;div class="break"&gt;&lt;/div&gt;<br/>
+                  &lt;div class="space"&gt;&lt;/div&gt;<br/>
+                  &lt;input type="submit" id="submit" value="Submit" class="submit-button"&gt;<br/>
+                &lt;/form&gt;              
+            </code>
+          </div>
+          <div class="box-right-bottom">
             <h2>Payment Information</h2>
             <form id="payment">
               <!-- Personal Info -->

@@ -1,0 +1,38 @@
+.footer-main {
+	background-color: rgb(191, 144, 90);
+	padding: 1em;
+}
+
+.gallery {
+	overflow: hidden;
+	border-bottom-style: solid;
+}
+
+.gallery_img {
+	display: inline;
+	width: 40em;
+}
+
+.image-carousel {
+	white-space: nowrap;
+	width: 40em;
+	border-style: solid;
+}
+
+.carousel-nav {
+	overflow: auto;
+	width: 38em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.carousel-scroll {
+	display: inline-flex;
+}
+
+.carousel-nav-item {
+	margin: 0;
+	padding: 0;
+	display: inline-table;
+	width: 15em;
+}

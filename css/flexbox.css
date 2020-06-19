@@ -31,9 +31,14 @@
 	flex: 3 1 auto;
 }
 
+.footer-main-item {
+	flex: 1 1 auto;
+}
+
 .product-browser-main-item {
 	flex: 1 1 auto;
 }
+
 
 @media (max-width: 30em) {
 }
