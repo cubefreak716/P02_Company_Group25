@@ -8,10 +8,35 @@
   flex-wrap: wrap;
 
   justify-content: space-around;
-  margin-top:0.8em;
+  /* margin-top:0.8em; */
   margin-left: 1.2em;
   margin-right: 1.2em;
 }
+
+
+.placeholder{
+  width:100%;
+  height:500px;
+  margin: 0.3em;
+  background-color: rgb(120,120,120);
+}
+
+/* https://stackoverflow.com/questions/20370396/align-div-to-bottom-of-the-page/20370465 */
+.placeholder-footer{
+  width:100%;
+  height:100px;
+  margin-bottom: 0;
+  background-color: rgb(160,160,160);
+  position: absolute;
+  bottom: 0;
+}
+
+.all{
+  position: relative;
+  min-height:100%;
+}
+
+
 
 /*  */
 /* for index page featured games */
@@ -33,7 +58,7 @@ p.product-grid-description{
   flex: 1 21%;
   height: 380px;
   border: 1px solid black;
-  background-color:  rgba(200, 200, 200, 1);
+  background-color:  rgba(105, 105, 105, 1);
   margin-left: 0.25em;
   margin-right: 0.25em;
   transition: background-color 0.5s ease-out;
@@ -63,12 +88,23 @@ p.product-grid-description{
   height:inherit;
   width:18%;
 }
+
+.thumbnails>.product-rectangle{
+  flex:24%;
+  height: 100px;
+  margin:0;
+  margin-top: 0.5em;
+  margin-right:0.5em;
+}
+
 /*https://stackoverflow.com/questions/14149360/text-on-image-mouseover*/
 .product-rectangle:hover .product-rectangle-text{
   visibility: visible;
   color: rgb(255,255,255, 1);
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(220, 220, 220, 1);
 }
+
+
 
 /*  */
 /* For all games page */
@@ -81,7 +117,7 @@ p.product-grid-description{
 }
 .line-center{
   width:30%;
-  border-bottom:3px solid rgba(0,100,255,0.6);
+  border-bottom:3px solid rgba(191, 144, 90,0.6);
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2.4em;
@@ -91,7 +127,7 @@ p.product-grid-description{
   width:25%;
   height: 400px;
   border: 1px solid black;
-  background-color:  rgba(200, 200, 200, 1);
+  background-color:  rgba(105, 105, 105, 1);
   margin-left: 0.25em;
   margin-right: 0.25em;
   margin-bottom: 1.3em;
@@ -121,6 +157,64 @@ p.product-grid-description{
   background-color: rgba(0, 0, 0, 0.5);
 }
 
+
+/*  */
+/* Event Grid */
+.event-grid{
+  /* border:1px solid black; */
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.event-rectangle-main{
+  flex:30%;
+  background-color: rgba(120,120,120,1);
+  margin-right: 0.5em;
+  height:500px;
+  margin-left: 0.5em;
+  margin-top:0.5em;
+  margin-bottom: 0.5em;
+  transition: background-color 1s ease-out;
+  text-align: center;
+  padding-top:15em;
+}
+
+.event-rectangle-main:hover{
+  background-color: rgba(120,120,120,0.5);
+}
+
+.event-rectangle-secondary{
+  flex:55%;
+  /* background-color: rgba(160,160,160,1); */
+}
+
+.event-rectangle-sections{
+  background-color: rgba(120,120,120,1);
+  margin-top:0.5em;
+  margin-right: 0.4em;
+  flex:20%;
+  height: 240px;
+  transition: background-color 1s ease-out;
+  text-align: center;
+  padding-top: 7em;
+}
+
+.event-rectangle-sections:hover{
+  background-color: rgba(120,120,120,0.5);
+}
+
+.longer{
+  background-color: rgba(160,160,160,1);
+  flex:40%;
+  text-align:left;
+  padding-top: 0.3em;
+  padding-left: 0.8em;
+  padding-right: 0.8em;
+  color: white;
+}
+
+
 /*  */
 /* For Text boxes */
 .text-box>h2{
@@ -131,7 +225,7 @@ p.product-grid-description{
 }
 /* line seperator */
 .line{
-    border-bottom:2px solid rgba(0,100,255,0.6);
+    border-bottom:2px solid rgba(191, 144, 90,0.6);
     width:20em;
     margin-bottom: 0.3em;
 }
@@ -146,6 +240,8 @@ p.content{
   width:50em;
   margin: 0;
   margin-top: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
 }
 .action-bar{
   margin-top: 0.8em;
@@ -176,9 +272,9 @@ p.content{
 }
 
 .line-vertical{
-    border-left:2px solid rgba(0,100,255,0.6);
-    margin-left: 0.2em;
-    margin-right: 0.5em;
+  border-left:2px solid rgba(191, 144, 90,0.6);
+  margin-left: 0.2em;
+  margin-right: 0.5em;
 }
 
 .review-content{
@@ -276,7 +372,89 @@ p.content{
   text-align: center;
 }
 .line-total-price{
-    border-bottom:2px solid rgba(0,100,255,0.6);
+    border-bottom:2px solid rgba(191, 144, 90,0.6);
     width:inherit;
     margin-bottom: 0.3em;
+}
+
+/*  */
+/* Purchase form */
+#payment{
+  /* background-color: rgba(0,100,255,0.6); */
+  display: -webkit-flex;
+  display: -ms-flex;
+  display:flex;
+  width:60%;
+  flex-wrap:-webkit-flex;
+  flex-wrap: -ms-flex;
+  flex-wrap: wrap;
+  padding:0.5em;
+
+  /* border: 1px solid rgba(0,100,255,0.6); */
+  align-items: center;
+
+}
+#payment>.line-vertical{
+  margin-bottom: 1.5em;
+}
+.p-info{
+  flex:57%;
+  margin-bottom: 1.5em;
+}
+
+#payment>.textfield{
+  flex:40%;
+  margin-bottom: 1.5em;
+}
+
+.space{
+  margin-top: 2.5em;
+  flex:75%;
+}
+
+.submit-button{
+  padding-right: 2em;
+  padding-top:0.6em;
+  padding-left: 2em;
+  padding-bottom:0.6em;
+  border: 0px;
+  background-color: rgba(229, 207, 181,1);
+  transition: background-color 0.5s ease-out;
+  color: rgba(97, 68, 34,1);
+  font-size: 1.2em;
+}
+.submit-button:hover{
+  background-color: rgba(191, 144, 90,1);
+  color:white;
+}
+
+.reset-button:hover{
+  color:white;
+  background-color: rgba(160,160,160,1);
+}
+
+.reset-button{
+  padding-right: 2em;
+  padding-top:0.6em;
+  padding-left: 2em;
+  padding-bottom:0.6em;
+  border: 0px;
+  background-color: rgba(220,220,220,1);
+  transition: background-color 0.5s ease-out;
+  color: rgba(160,160,160,1);
+  font-size: 1.2em;
+
+}
+
+#payment>.submit-button{
+  margin-top: 2.5em;
+  flex:20%;
+}
+
+.radio{
+  flex:22%;
+  background-color:#D9D9D9;
+  text-align: center;
+  margin-right: 0.2em;
+  padding: 1.2em;
 }

@@ -17,6 +17,7 @@
 
     <nav class="nav-main box">
       <a href="index.html" class="nav-main-item branding box-item-nav"><h4>Style Guide</h4></a>
+      <a href="sample-page.html" class="nav-main-item sample box-item-nav"><h4>Sample Index Page</h4></a>
       <a href="wireframes.html" class="nav-main-item wireframes box-item-nav"> <h4> Wireframes </h4> </a>
       <a href="citations.html" class="nav-main-item citations box-item-nav"><h4>Citations</h4></a>
     </nav>
@@ -190,8 +191,8 @@
               </code>
             </div>
             <div class="box-right-bottom">
-              <input type="submit" name="submit">
-              <input type="Reset" name="Reset">
+              <input type="submit" name="submit" class="submit-button">
+              <input type="reset" name="reset" class="reset-button">
             </div>
           </div>
         </div>
@@ -265,13 +266,29 @@
             <p class="subtitle"> how products will appear on detailed page  </p>
           </div>
           <div class="box-right">
+            <div class="box-right-top">
             <div class="product-main box">
               <div class="product-main-item product-main-1">
-                <h3>Game Title</h3>
-                <p>This is a description of a game. It is a very interesting game. It is about ancient things, and it's super cool. You should buy and play it. Seriously, you won't regret it. it has many entertaining features that will make you happy. For example, you can do things. These things are fun. Play this game.</p>
+                <div class="product-rectangle"></div>
+                <div class="break"></div>
+                <div class="thumbnails module">
+                  <div class="product-rectangle">
+                  </div>
+                  <div class="product-rectangle"></div>
+                  <div class="product-rectangle"></div>
+                  <div class="product-rectangle"></div>
+                </div>
               </div>
               <div class="product-main-item product-main-2">
+                <h2>Game Title</h2>
+                <p>This is a description of a game. It is a very interesting game.
+                  It is about ancient things, and it's super cool. You should buy and play it.
+                  Seriously, you won't regret it. it has many entertaining features that will make you happy.
+                  For example, you can do things. These things are fun. Play this game.
+                </p>
+
                 <button class="action-button">Purchase</button>
+                <button class="action-button">Reviews</button>
                 <h4>System Specifications</h4>
                 <ul>
                   <li>Your computer needs this to play</li>
@@ -281,6 +298,7 @@
                 </ul>
               </div>
             </div>
+            </div>
           </div>
         </div>
 
@@ -289,7 +307,8 @@
       <div class="container">
         <div class="box-left">
           <h4>Featured Product Browser</h4>
-          <p class="subtitle"> product grid and layout for index page</p>
+          <p class="subtitle"> product grid and layout for index page. hover over to see game name
+          and short description</p>
         </div>
         <div class="box-right">
           <div class="box-right-top">
@@ -330,7 +349,8 @@
       <div class="container">
         <div class="box-left">
           <h4>Product Grid</h4>
-          <p class="subtitle"> product grid showcasing all games </p>
+          <p class="subtitle"> product grid showcasing all games. hover over to see game name
+          and short description </p>
         </div>
         <div class="box-right">
           <div class="box-right-top">
@@ -380,6 +400,49 @@
         </div>
       </div>
       <!-- end of product grid container -->
+
+      <!--News Preview-->
+      <div class="container">
+        <div class="box-left">
+          <h4>Event Grid</h4>
+          <p class="subtitle"> news grid showcasing events and promotions </p>
+        </div>
+        <div class="box-right">
+          <div class="box-right-top">
+            <div class="event-grid module">
+              <div class="event-rectangle-main">
+
+              </div>
+              <div class="event-rectangle-secondary module">
+                <div class="event-rectangle-sections longer">
+                  <h3>Events</h3>
+                  <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Cras mauris est, dictum in eleifend ac, porta eget urna.
+                  Sed bibendum sapien sit amet arcu semper maximus id a mi.
+                  Vestibulum quis lacus at enim maximus sodales.
+                  In pharetra ligula sit amet nibh dapibus hendrerit.
+                  Integer tempus lorem mauris. Nam eleifend neque diam.
+                  </p>
+                </div>
+                <div class="event-rectangle-sections"></div>
+                <div class="break"></div>
+                <div class="event-rectangle-sections"></div>
+                <div class="event-rectangle-sections longer">
+                  <h3>News</h3>
+                  <p>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Cras mauris est, dictum in eleifend ac, porta eget urna.
+                  Sed bibendum sapien sit amet arcu semper maximus id a mi.
+                  Vestibulum quis lacus at enim maximus sodales.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end of News Preview grid -->
 
       <!--Text Box -->
       <div class="container">
@@ -479,7 +542,7 @@
       <div class="container">
         <div class="box-left">
           <h4>Shopping Cart</h4>
-          <p class="subtitle"> shopping cart and payment form </p>
+          <p class="subtitle"> shopping cart where users can view current cart total and remove products </p>
         </div>
         <div class="box-right">
           <div class="box-right-top">
@@ -524,6 +587,66 @@
         </div>
       </div>
       <!-- end of shopping cart container -->
+
+      <!--Form -->
+      <div class="container">
+        <div class="box-left">
+          <h4>Purchase Form</h4>
+          <p class="subtitle"> personal information input and payment method selection</p>
+        </div>
+        <div class="box-right">
+          <div class="box-right-top">
+            <h2>Payment Information</h2>
+            <form id="payment">
+              <!-- Personal Info -->
+              <div class="line-vertical">&nbsp;</div>
+              <label for="fname" class="p-info">Full name</label>
+              <input type="text" id="fname" class="textfield" name="fname">
+              <div class="break"></div>
+              <div class="line-vertical">&nbsp;</div>
+              <label for="address" class="p-info">Address</label>
+              <input type="text" id="address" class="textfield" name="address">
+              <div class="break"></div>
+              <div class="line-vertical">&nbsp;</div>
+              <label for="postal" class="p-info">Postal Code</label>
+              <input type="text" id="postal" class="textfield" name="postal">
+              <div class="break"></div>
+              <div class="line-vertical">&nbsp;</div>
+              <label for="city" class="p-info">City</label>
+              <input type="text" id="city" class="textfield" name="city">
+              <div class="break"></div>
+              <div class="line-vertical">&nbsp;</div>
+              <label for="text" class="p-info">Country</label>
+              <input type="text" id="country" class="textfield" name="country">
+              <div class="break"></div>
+              <div class="line-vertical">&nbsp;</div>
+              <label for="telphone" class="p-info">Telephone #</label>
+              <input type="text" id="telphone" class="textfield" name="telphone">
+              <div class="break"></div>
+
+              <!-- payment method -->
+              <label for="visa" class="radio">Visa</label>
+              <label for="mastercard" class="radio">Mastercard</label>
+              <label for="paypal" class="radio">Paypal</label>
+              <label for="other" class="radio">Other</label>
+              <div class="break"></div>
+              <input type="radio" id="visa" class="radio" name="credit" value="visa">
+              <input type="radio" id="mastercard" class="radio" name="credit" value="mastercard">
+              <input type="radio" id="paypal" class="radio" name="credit" value="paypal">
+              <input type="radio" id="other" class="radio" name="credit" value="other">
+
+              <!-- Submit button -->
+              <div class="break"></div>
+              <div class="space"></div>
+              <input type="submit" id="submit" value="Submit" class="submit-button">
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- end of purchase form -->
+
+
+
   </section>
 
 

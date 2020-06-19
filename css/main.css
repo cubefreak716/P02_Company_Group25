@@ -4,10 +4,17 @@ html {
 
 a {
 	display: block;
+	text-decoration: none;
+	padding: 0.5em;
+	background-color: rgba(0,0,0, 0.6);
+	color: white;
+	margin-right: 0.4em;
 }
 
 section {
 	padding-bottom: 5em;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 p {
@@ -67,7 +74,7 @@ h1{
 }
 
 .action-button {
-  background-color: rgba(0,0,0,0.2);
+  background-color: rgba(229, 207, 181,1);
   color: white;
   padding: 0.4em 0.2em;
 	width:8em;
@@ -98,11 +105,15 @@ h1{
 }
 
 .product-main {
-	background-color: rgb(242, 226, 208);
+	/* background-color: rgb(242, 226, 208); */
 }
 
 .product-main-1 {
 	text-align: center;
+}
+.product-main-2 {
+	margin-top: 2em;
+	margin-left:2em;
 }
 
 .body-main {
