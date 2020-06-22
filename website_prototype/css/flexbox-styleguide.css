@@ -1,0 +1,124 @@
+/*For Styleguide page layout*/
+.container{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display:flex;
+
+  flex-wrap:-webkit-flex;
+  flex-wrap: -ms-flex;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+  margin-top:0.8em;
+  margin-left: 1.2em;
+  margin-right: 1.2em;
+}
+
+.break{
+  flex-basis: 100%;
+  height:0;
+}
+
+.box-left{
+  flex: 1 1 20%;
+  margin-right:0.3em;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  padding-left: 0.5em;
+}
+.box-right{
+  flex:6 1 75%;
+  padding: 0;
+}
+.box-right-palette{
+  flex:6 1 75%;
+  padding: 0;
+  display: flex;
+}
+.palette-cube{
+  margin: 0;
+  margin-right: 0.3em;
+  padding: 0;
+}
+.box-right-top{
+  padding-top:0.5em;
+  padding-left: 1.3em;
+  padding-bottom: 0.5em;
+  border-top: 1px solid black;
+}
+.box-right-bottom{
+  padding-top:0.5em;
+  padding-left: 1.3em;
+  padding-bottom: 0.5em;
+}
+
+/*For Styleguide content layout*/
+.box{
+  display: -webkit-flex;
+  display: -ms-flex;
+  display:flex;
+
+  flex-wrap:-webkit-flex;
+  flex-wrap: -ms-flex;
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+}
+
+/*Product image and short text will be in here*/
+.box-product-module{
+  border: 1px solid black;
+  flex: 0 0 11em;
+  margin-bottom: 1.2em;
+  max-width: 11em;
+}
+.box-product-module.single{
+  border: 1px solid black;
+  flex: 0 0 11em;
+  margin-bottom: 1.2em;
+  max-width: 11em;
+}
+.product-image{
+  margin: 0.4em;
+  width:auto;
+  height: 200px;
+  background-color: #C9F0FF;
+}
+.product-text{
+  text-align: center;
+  font-family: "Ubuntu",sans-serif;
+}
+
+@media (max-width:970px) {
+  .box-product-module{
+    flex: 0 1 11em;
+  }
+}
+
+@media (max-width:600px) {
+  .box{
+    display: block;
+  }
+}
+
+/*web Structure*/
+.grid{
+  border: 1px dashed black;
+}
+
+.main-search-bar{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5em;
+}
+.main-search-bar-input{
+  width:20%;
+  padding:0.3em;
+  background-color: #D5CAD6;
+  margin-right: 0.3em;
+}
+.main-search-bar-button{
+  width:20px;
+  height: 20px;
+  background-color: #D5CAD6;
+}

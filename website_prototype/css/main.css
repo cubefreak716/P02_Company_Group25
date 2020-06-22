@@ -1,0 +1,131 @@
+html {
+	font-family: 'Oxygen', sans-serif;
+}
+
+a {
+	display: block;
+	text-decoration: none;
+	padding: 0.5em;
+	background-color: rgba(0,0,0, 0.6);
+	color: white;
+}
+
+section {
+	padding-bottom: 5em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p {
+	text-align: left;
+	/* width: 75%; */
+	padding: 1em;
+}
+
+li {
+	text-align: left;
+}
+
+h1{
+	padding: 0;
+	margin: 0;
+}
+
+.color-swatch {
+	display: inline-block;
+	width: 4em;
+	height: 4em;
+}
+.base {
+	background-color: rgb(209, 168, 121)
+}
+.background {
+	background-color: rgb(229, 207, 181)
+}
+.hover-state {
+	background-color: rgb(191, 144, 90)
+}
+.search {
+	background-color: rgb(97, 68, 34)
+}
+.purchase {
+	background-color: rgb(153, 92, 49)
+}
+.purchase-hover {
+	background-color: rgb(176, 111, 65)
+}
+.color-caption {
+	display: inline-block;
+}
+
+.logo-text {
+	font-family: 'Teko', sans-serif;
+	color: white;
+	font-size: 2em;
+	background-color: rgba(0, 0, 0,0.8);
+	padding-left: auto;
+	padding-top: auto;
+	padding-right: 0.5em;
+	text-decoration: none;
+}
+
+.action-button {
+  background-color: rgba(229, 207, 181,1);
+  color: white;
+  padding: 0.4em 0.2em;
+	width:8em;
+	font-family: 'Oxygen',sans-serif;
+	font-size: 1em;
+	transition: background-color 1s ease-out;
+	border:0px;
+}
+
+.action-button:hover, .action-button:focus {
+	background-color: rgba(0,0,0,0.8);
+}
+
+.nav-button{
+	background-color: rgb(209, 168, 121);
+	text-align: center;
+	border: 1px solid white;
+	padding-top: auto;
+	padding-bottom: auto;
+	text-decoration: none;
+	color: black;
+	font-size: 2em;
+}
+
+.nav-button:hover, .nav-button:focus {
+	background-color: rgb(191, 144, 90);
+}
+
+.product-main {
+	/* background-color: rgb(242, 226, 208); */
+}
+
+.product-main-1 {
+	text-align: center;
+}
+.product-main-2 {
+	margin-top: 2em;
+	margin-left:2em;
+}
+
+.body-main {
+	background-color: rgb(242, 226, 208);
+	padding: 2em;
+}
+
+.product-browser-main-item {
+	border: 1px solid black;
+	margin: 4em;
+	padding: 1em;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+	display: block;
+	margin-bottom: 0;
+	padding: 0;
+}
