@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>Phalanx Studios</title>
+    <link href="css/normalize.css" rel="stylesheet">
 
     <!--Morgan's old css files -->
     <link href="css/main.css" rel="stylesheet">
@@ -19,67 +20,111 @@
       <a href="index.html" class="nav-main-item logo-text">
         <h1>Phalanx Studios</h1>
       </a>
-      <a href="browse.html" class="nav-main-item  box-item-nav nav-button">Browse</a>
-      <a href="community.html" class="nav-main-item  box-item-nav nav-button">Community</a>
-      <a href="about.html" class="nav-main-item  box-item-nav nav-button">About Us</a>
+      <a href="browse.html" class="box-item-nav nav-button">Browse</a>
+      <a href="community.html" class="box-item-nav nav-button">Community</a>
+      <a href="about.html" class="box-item-nav nav-button">About Us</a>
       <div class="nav-blank-space box-blank-nav"></div>
       <div class="nav-blank-space box-cart-nav">
-        <a href="cart.html">
-        <img class="icon-shopping" src="images/icons/buy.png" alt="shopping cart icon">
+        <a class="nav-cart" href="cart.html">
+          <img class="icon-shopping" src="images/icons/buy.png" alt="shopping cart icon">
         </a>
       </div>
     </nav>
     <div class="image-carousel">
       <div class="gallery">
-        <img class="gallery_img" id="image-1" src="images/placeholder.jpg">
-        <img class="gallery_img" id="image-2" src="images/placeholder2.jpg">
-        <img class="gallery_img" id="image-3" src="images/placeholder3.jpg">
+        <a class="gallery_link" href="product_example_1.html">
+          <img class="gallery_img" id="image-1" src="images/assassins-creed-3-remastered-review-1024x576.jpg">
+        </a>
+        <a class="gallery_link" href="product_example_2.html">
+          <img class="gallery_img" id="image-2" src="images/ac-unity-banner.jpg">
+        </a>
+        <a class="gallery_link" href="product_example_3.html">          
+          <img class="gallery_img" id="image-3" src="images/ac-rogue-banner.jpg">
+        </a>
       </div>
 
       <nav class="carousel-nav">
         <div class="carousel-scroll">
         <a class="carousel-nav-item" href="#image-1">
-          <img src="images/placeholder.jpg">
+          <img src="images/assassins-creed-3-remastered-review-1024x576.jpg">
         </a>
         <a class="carousel-nav-item" href="#image-2">
-          <img src="images/placeholder2.jpg">
+          <img src="images/ac-unity-banner.jpg">
         </a>
         <a class="carousel-nav-item" href="#image-3">
-          <img src="images/placeholder3.jpg">
+          <img src="images/ac-rogue-banner.jpg">
         </a>
         </div>
       </nav>
     </div>
+
     <section id="featured-games">
       <div class="module product-grid-index-page">
-        <div class="product-rectangle">
-          <!-- <img src="images/product-img/StarCraft_II_-_Box_Art.jpg" alt=""> -->
-          <div class="product-rectangle-text">
-          <h3 class="product-grid-heading">Game Name</h3>
-          <p class="product-grid-description">Brief description about the Game</p>
+        <div class="product-square">
+          <img src="images/Assassin's_Creed_III_Game_Cover.jpg" alt="Ass creed game cover">
+          <div class="product-square-text">
+            <a class="product-link" href="product_example_1.html">
+              <h3 class="product-grid-heading">Game Name</h3>
+              <p class="product-grid-description">Brief description about the Game</p>
+            </a>
           </div>
         </div>
-        <div class="product-rectangle">
-          <!-- <img src="images/product-img/for-honor-game-art.jpg" alt=""> -->
-          <div class="product-rectangle-text">
-          <h3 class="product-grid-heading">Game Name</h3>
-          <p class="product-grid-description">Brief description about the Game</p>
+        <div class="product-square">
+          <img src="images/Acunity.jpg" alt="Ass creed game cover">
+          <div class="product-square-text">
+            <a class="product-link" href="product_example_2.html">
+              <h3 class="product-grid-heading">Game Name</h3>
+              <p class="product-grid-description">Brief description about the Game</p>
+            </a>
           </div>
         </div>
-        <div class="product-rectangle">
-          <div class="product-rectangle-text">
-          <h3 class="product-grid-heading">Game Name</h3>
-          <p class="product-grid-description">Brief description about the Game</p>
-          </div>
-        </div>
-        <div class="product-rectangle">
-          <div class="product-rectangle-text">
-          <h3 class="product-grid-heading">Game Name</h3>
-          <p class="product-grid-description">Brief description about the Game</p>
+        <div class="product-square">
+          <img src="images/Assassin's_Creed_Rogue.jpg" alt="Ass creed game cover">
+          <div class="product-square-text">
+            <a class="product-link" href="product_example_3.html">
+              <h3 class="product-grid-heading">Game Name</h3>
+              <p class="product-grid-description">Brief description about the Game</p>
+            </a>
           </div>
         </div>
       </div>
     </section>
+
+    <a href="article1.html">
+      <div class="event-rectangle-sections longer home-news">
+        <h3>News Article 1</h3>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Cras mauris est, dictum in eleifend ac, porta eget urna.
+        Sed bibendum sapien sit amet arcu semper maximus id a mi.
+        Vestibulum quis lacus at enim maximus sodales.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Cras mauris est, dictum in eleifend ac, porta eget urna.
+        Sed bibendum sapien sit amet arcu semper maximus id a mi.
+        Vestibulum quis lacus at enim maximus sodales.
+        </p>
+      </div>
+    </a>
+    <a href="article2.html">
+      <div class="event-rectangle-sections longer home-news">
+        <h3>News Article 2</h3>
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Cras mauris est, dictum in eleifend ac, porta eget urna.
+        Sed bibendum sapien sit amet arcu semper maximus id a mi.
+        Vestibulum quis lacus at enim maximus sodales.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Cras mauris est, dictum in eleifend ac, porta eget urna.
+        Sed bibendum sapien sit amet arcu semper maximus id a mi.
+        Vestibulum quis lacus at enim maximus sodales.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Cras mauris est, dictum in eleifend ac, porta eget urna.
+        Sed bibendum sapien sit amet arcu semper maximus id a mi.
+        Vestibulum quis lacus at enim maximus sodales.
+        </p>
+      </div>
+    </a>
+
     <div class="footer-main box">
       <h4 class="footer-main-item">Phalanx Studios, Copyright Information, all rights reserved, etc.</h4>
       <h4 class="footer-main-item">Company Address: 11111 111 st City, Province, Canada</h4>

@@ -1,3 +1,8 @@
+body {
+	background-color: rgb(229, 207, 181);
+	margin: 0;
+}
+
 .footer-main {
 	background-color: rgba(0, 0, 0,0.8);
 	padding: 1em;
@@ -6,7 +11,6 @@
 
 .gallery {
 	overflow: hidden;
-	border-bottom-style: solid;
 }
 
 .gallery_img {
@@ -17,14 +21,14 @@
 .image-carousel {
 	white-space: nowrap;
 	width: 40em;
-	border-style: solid;
-	padding-left: auto;
-	padding-right: auto;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 2em;
 }
 
 .carousel-nav {
 	overflow: auto;
-	width: 38em;
+	width: 39em;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -34,8 +38,23 @@
 }
 
 .carousel-nav-item {
-	margin: 0;
+	margin: 0.5em;
 	padding: 0;
 	display: inline-table;
 	width: 15em;
+	background-color: rgb(229, 207, 181);
+}
+
+.home-news {
+	margin: 0;
+}
+
+.nav-cart {
+	margin-top: 1em;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+.gallery_link {
+	display: inline-block;
 }
