@@ -179,6 +179,7 @@ p.product-grid-description{
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
+  margin-top: -1.75em;
 }
 .game-banner-img{
   width:inherit;

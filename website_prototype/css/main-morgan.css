@@ -58,3 +58,7 @@ body {
 .gallery_link {
 	display: inline-block;
 }
+
+.article-img {
+	width: 75%;
+}
