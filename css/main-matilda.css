@@ -40,6 +40,13 @@
 
 /*  */
 /* for index page featured games */
+a.product-link{
+  display: block;
+	text-decoration: none;
+  background-color: rgba(255,255,255,0);
+	color: white;
+}
+
 .product-grid-index-page{
   /*border: 1px solid black;*/
 }

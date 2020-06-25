@@ -2,15 +2,21 @@ html {
 	font-family: 'Oxygen', sans-serif;
 }
 
+body{
+	margin: 0;
+	padding: 0;
+}
+
 a {
 	display: block;
 	text-decoration: none;
 	padding: 0.5em;
-	background-color: rgba(0,0,0, 0.6);
+	/* background-color: rgba(0,0,0, 0.6); */
 	color: white;
 }
 
 section {
+	padding-top: 2em;
 	padding-bottom: 5em;
 	margin-left: auto;
 	margin-right: auto;
@@ -29,6 +35,23 @@ li {
 h1{
 	padding: 0;
 	margin: 0;
+}
+h2{
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	max-width: 100%;
+	/* width: 100%; */
+	display: block;
+	margin-bottom: 0;
+	padding: 0;
+	object-fit: cover;
+}
+
+nav{
+
 }
 
 .color-swatch {
@@ -61,16 +84,16 @@ h1{
 .logo-text {
 	font-family: 'Teko', sans-serif;
 	color: white;
-	font-size: 2em;
+	font-size: 1.5em;
 	background-color: rgba(0, 0, 0,0.8);
 	padding-left: auto;
-	padding-top: auto;
+	padding-top: 0.5em;
 	padding-right: 0.5em;
 	text-decoration: none;
 }
 
 .action-button {
-  background-color: rgba(229, 207, 181,1);
+  background-color: rgba(71, 82, 94,1);
   color: white;
   padding: 0.4em 0.2em;
 	width:8em;
@@ -85,18 +108,31 @@ h1{
 }
 
 .nav-button{
-	background-color: rgb(209, 168, 121);
+	background-color: rgba(0, 0, 0,0.8);
 	text-align: center;
-	border: 1px solid white;
-	padding-top: auto;
+	/* border: 1px solid white; */
+	padding-top:1.0em;
 	padding-bottom: auto;
 	text-decoration: none;
-	color: black;
-	font-size: 2em;
+	color: white;
+	font-size: 1.5em;
+	margin-left: 0.3em;
 }
 
 .nav-button:hover, .nav-button:focus {
-	background-color: rgb(191, 144, 90);
+	background-color: rgba(0, 0, 0,0.2);
+}
+
+.nav-blank-space{
+
+}
+
+.icon-shopping{
+	width:40px;
+	margin:0;
+
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .product-main {
@@ -116,16 +152,13 @@ h1{
 	padding: 2em;
 }
 
+.page-heading{
+	padding:6em;
+	/* background-color: rgba(0,0,0,0.6); */
+}
+
 .product-browser-main-item {
 	border: 1px solid black;
 	margin: 4em;
 	padding: 1em;
-}
-
-img {
-	height: auto;
-	max-width: 100%;
-	display: block;
-	margin-bottom: 0;
-	padding: 0;
 }
