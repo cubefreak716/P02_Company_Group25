@@ -15,8 +15,25 @@
 	justify-content: space-around;
 }
 
+.nav-main{
+	height:4em;
+}
+
 .box-item-nav {
 	flex: 1 1 auto;
+	background-color: rgba(0, 0, 0,0.8);
+}
+.box-blank-nav {
+	flex: 8 1 auto;
+	background-color: rgba(0, 0, 0,0.8);
+}
+.box-cart-nav{
+	flex: 1 1 auto;
+	background-color: rgba(0, 0, 0,0.9);
+}
+
+.box-cart-nav:hover, .box-cart-nav:focus {
+	background-color: rgba(0, 0, 0, 0.6);
 }
 
 .product-main-1 {

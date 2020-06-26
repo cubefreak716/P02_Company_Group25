@@ -36,10 +36,10 @@ h1{
 	height: 4em;
 }
 .base {
-	background-color: rgb(209, 168, 121)
+	background-color: rgba(0, 0, 0,0.8);
 }
 .background {
-	background-color: rgb(229, 207, 181)
+	background-color: rgba(120,120,120,1);
 }
 .hover-state {
 	background-color: rgb(191, 144, 90)
@@ -56,6 +56,13 @@ h1{
 .color-caption {
 	display: inline-block;
 }
+.action-button-colour{
+	background-color: rgba(71, 82, 94,1);
+}
+
+.sale-button-colour{
+	background-color: rgb(140, 155, 237);
+}
 
 .logo-text {
 	font-family: 'Teko', sans-serif;
@@ -69,7 +76,7 @@ h1{
 }
 
 .action-button {
-  background-color: rgba(229, 207, 181,1);
+  background-color: rgba(71, 82, 94,1);
   color: white;
   padding: 0.4em 0.2em;
 	width:8em;
@@ -83,19 +90,30 @@ h1{
 	background-color: rgba(0,0,0,0.8);
 }
 
+.nav-main {
+	margin-top: 0;
+	margin-right: 0;
+	margin-left: 0;
+	margin-bottom: 2em;
+}
+
 .nav-button{
-	background-color: rgb(209, 168, 121);
+	background-color: rgba(0, 0, 0,0.8);
 	text-align: center;
-	border: 1px solid white;
-	padding-top: auto;
-	padding-bottom: auto;
 	text-decoration: none;
-	color: black;
-	font-size: 2em;
+	color: rgb(225, 225, 225);
+	font-size: 1.2em;
+	padding: 0.5em;
+	padding-top: 1.5em;
 }
 
 .nav-button:hover, .nav-button:focus {
-	background-color: rgb(191, 144, 90);
+	background-color: rgba(0, 0, 0,0.2);
+	color: rgb(100, 100, 100);
+}
+
+.nav-blank-space{
+
 }
 
 .product-main {

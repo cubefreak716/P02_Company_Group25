@@ -16,11 +16,14 @@
   </head>
   <body>
 
-    <nav class="nav-main box">
-      <a href="index.html" class="nav-main-item branding box-item-nav"><h4>Style Guide</h4></a>
+    <nav class="nav-main box sticky">
+      <a href="index.html" class="nav-main-item logo-text">
+        <h1>Phalanx Studios Style Guide</h1>
+      </a>
       <a href="sample-page.html" class="nav-main-item sample box-item-nav"><h4>Sample Index Page</h4></a>
       <a href="wireframes.html" class="nav-main-item wireframes box-item-nav"> <h4> Wireframes </h4> </a>
       <a href="citations.html" class="nav-main-item citations box-item-nav"><h4>Citations</h4></a>
+      <div class="nav-blank-space box-blank-nav"> </div>
     </nav>
 
 
@@ -173,7 +176,7 @@
               </code>
             </div>
             <div class="box-right-bottom">
-              <button class="action-button">Button</button>
+              <button class="action-button action-button-colour">Button</button>
             </div>
           </div>
         </div>
@@ -181,8 +184,8 @@
         <!--Submit/reset button -->
         <div class="container">
           <div class="box-left">
-            <h4>Action Button</h4>
-            <p class="subtitle"> standard interactive button </p>
+            <h4>Form Buttons</h4>
+            <p class="subtitle"> buttons found on forms </p>
           </div>
           <div class="box-right">
             <div class="box-right-top">
@@ -198,6 +201,22 @@
           </div>
         </div>
 
+        <!--Sale banner -->
+        <div class="container">
+          <div class="box-left">
+            <h4>Sales Banner</h4>
+            <p class="subtitle"> a banner to notify users of new content</p>
+          </div>
+          <div class="box-right">
+            <div class="box-right-top">
+              <div class="sale">
+                <h3>All Featured Games 30% off!</h3>
+                <button class="action-button"><a href="product_example_1.html">See more</a></button>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <!--Colour pallete -->
         <div class="container">
           <div class="box-left">
@@ -207,28 +226,28 @@
           <div class="box-right-palette">
             <div class="palette-cube">
               <div class="color-swatch base"></div>
-              <h5 class="colour-hex">(209, 168, 121)</h5>
+              <h5 class="colour-hex">(0, 0, 0,0.8)</h5>
+            </div>
+            <div class="palette-cube">
+              <div class="color-swatch action-button-colour"></div>
+              <h5 class="colour-hex">(71, 82, 94)</h5>
+            </div>
+            <div class="palette-cube">
+              <div class="color-swatch sale-button-colour"></div>
+              <h5 class="colour-hex">(140, 155, 237)</h5>
             </div>
             <div class="palette-cube">
               <div class="color-swatch background"></div>
-              <h5 class="colour-hex">(229, 207, 181)</h5>
+              <h5 class="colour-hex">(120, 120, 120)</h5>
             </div>
-            <div class="palette-cube">
-              <div class="color-swatch hover-state"></div>
-              <h5 class="colour-hex">(191, 144, 90)</h5>
-            </div>
-            <div class="palette-cube">
-              <div class="color-swatch search"></div>
-              <h5 class="colour-hex">(97, 68, 34)</h5>
-            </div>
-            <div class="palette-cube">
+            <!-- <div class="palette-cube">
               <div class="color-swatch purchase"></div>
               <h5 class="colour-hex">(153, 92, 49)</h5>
             </div>
             <div class="palette-cube">
               <div class="color-swatch purchase-hover"></div>
               <h5 class="colour-hex">(176, 111, 65)</h5>
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
@@ -285,12 +304,15 @@
                 </code>
             </div>
             <div class="box-right-bottom">
-              <div class="footer-main box">
-                <h4 class="footer-main-item">Phalanx Studios, Copyright Information, all rights reserved, etc.</h4>
-                <h4 class="footer-main-item">Company Address: 11111 111 st City, Province, Canada</h4>
-                <div class="footer-main-item">
-                  <h4>Office Phone: 604 111 1111</h4>
-                  <h4>Email Us: phalanx_studios@example.com</h4>
+              <div class="footer-main">
+                <h1>Phalanx Studios</h1>
+                <div class="footer-content">
+                  <h4 class="footer-main-item">Copyright Information, all rights reserved, etc.</h4>
+                  <h4 class="footer-main-item">Company Address: 11111 111 st City, Province, Canada</h4>
+                  <div class="footer-main-item">
+                    <h4>Office Phone: 604 111 1111</h4>
+                    <h4>Email Us: phalanx_studios@example.com</h4>
+                  </div>
                 </div>
               </div>
             </div>
@@ -325,7 +347,7 @@
                   &lt;/a&gt; <br/>
                   &lt;/div&gt; <br/>
                   &lt;/nav&gt; <br/>
-                  &lt;/div&gt; 
+                  &lt;/div&gt;
                 </code>
             </div>
             <div class="box-right-bottom">
@@ -363,10 +385,10 @@
           </div>
           <div class="box-right">
             <div class="box-right-top">
-              <code>                
+              <code>
                   &lt;div class="product-main box"&gt; <br/>
                   &lt;div class="product-main-item product-main-1"&gt; <br/>
-                
+
                   &lt;div class="image-carousel"&gt; <br/>
                   &lt;div class="gallery"&gt; <br/>
                   &lt;img class="gallery_img" id="image-1" src="images/placeholder.jpg"&gt; <br/>
@@ -452,7 +474,7 @@
                   </ul>
                 </div>
               </div>
-            
+
             </div>
           </div>
         </div>
@@ -724,7 +746,7 @@
         <div class="box-right">
 
           <div class="box-right-top">
-            <code>              
+            <code>
               &lt;div class="module text-box"&gt;<br/>
                 &lt;h2&gt;Company Mission&lt;/h2&gt;<br/>
                 &lt;div class="line"&gt;&lt;/div&gt;<br/>
@@ -780,7 +802,7 @@
         <div class="box-right">
 
           <div class="box-right-top">
-            <code>              
+            <code>
 
             &lt;div class="module review-box"&gt;<br/>
               &lt;div class="user-info"&gt;<br/>
@@ -1031,7 +1053,7 @@
                   &lt;div class="break"&gt;&lt;/div&gt;<br/>
                   &lt;div class="space"&gt;&lt;/div&gt;<br/>
                   &lt;input type="submit" id="submit" value="Submit" class="submit-button"&gt;<br/>
-                &lt;/form&gt;              
+                &lt;/form&gt;
             </code>
           </div>
           <div class="box-right-bottom">
