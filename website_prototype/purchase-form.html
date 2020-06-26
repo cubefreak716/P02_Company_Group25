@@ -27,8 +27,9 @@
     </nav>
 
     <section id="content">
-      <h2>Payment Information</h2>
-      <div>
+      <div class="module">
+      <div class="payment-left">
+        <h2>Payment Information</h2>
         <form id="payment">
         <div class="line-vertical"> </div>
         <label for="fname" class="p-info">Full name</label>
@@ -68,8 +69,48 @@
         <input type="submit" id="submit" value="Submit" class="submit-button">
         </form>
       </div>
-
-
+      <div class="payment-right">
+        <h2>Cart</h2>
+        <div class="shopping-cart-box">
+          <div class="shopping-cart-row">
+            <div class="line-vertical"></div>
+            <div class="cart-item-image">Image</div>
+            <div class="cart-item-name">Game Name</div>
+            <div class="cart-item-price">
+              <div class="price">$X.XX</div>
+              <button class="action-button cart-item-remove-button"><a href="cart.html">X</a></button>
+            </div>
+          </div>
+          <div class="shopping-cart-row">
+            <div class="line-vertical"></div>
+            <div class="cart-item-image">Image</div>
+            <div class="cart-item-name">Game Name</div>
+            <div class="cart-item-price">
+              <div class="price">$X.XX</div>
+              <button class="action-button cart-item-remove-button"><a href="cart.html">X</a></button>
+            </div>
+          </div>
+          <div class="shopping-cart-row">
+            <div class="line-vertical"></div>
+            <div class="cart-item-image">Image</div>
+            <div class="cart-item-name">Game Name</div>
+            <div class="cart-item-price">
+              <div class="price">$X.XX</div>
+              <button class="action-button cart-item-remove-button"><a href="cart.html">X</a></button>
+            </div>
+          </div>
+          <div class="shopping-cart-row">
+            <div class="price-empty-space"></div>
+            <div class="price-total">
+              <div class="line-total-price"></div>
+              Total:$X.XX
+            </div>
+          </div>
+          <div class="action-bar">
+            <button class="action-button"><a href="purchase-form.html">Purchase</a></button>
+          </div>
+        </div>
+      </div>
       </div>
     </section>
 

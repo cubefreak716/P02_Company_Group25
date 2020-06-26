@@ -1,5 +1,5 @@
 body {
-	background-color: rgb(229, 207, 181);
+	/* background-color: rgb(229, 207, 181); */
 	margin: 0;
 }
 
@@ -47,6 +47,8 @@ body {
 
 .home-news {
 	margin: 0;
+	padding-top: 0.7em;
+	height:280px;
 }
 
 .nav-cart {

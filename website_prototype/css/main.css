@@ -24,7 +24,7 @@ section {
 
 p {
 	text-align: left;
-	 width: 75%; 
+	 width: 75%;
 	padding: 1em;
 }
 
@@ -108,8 +108,9 @@ img {
 	text-align: center;
 	text-decoration: none;
 	color: rgb(225, 225, 225);
-	font-size: 2em;
+	font-size: 1.2em;
 	padding: 0.5em;
+	padding-top: 1.5em;
 }
 
 .nav-button:hover, .nav-button:focus {
