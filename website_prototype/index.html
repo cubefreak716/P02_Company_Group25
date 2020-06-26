@@ -16,14 +16,14 @@
     <link href="css/main-morgan.css" rel="stylesheet">
   </head>
   <body>
-    <nav class="nav-main box">
+    <nav class="nav-main box sticky">
       <a href="index.html" class="nav-main-item logo-text">
         <h1>Phalanx Studios</h1>
       </a>
       <a href="browse.html" class="box-item-nav nav-button">Browse</a>
       <a href="community.html" class="box-item-nav nav-button">Community</a>
       <a href="about.html" class="box-item-nav nav-button">About Us</a>
-      <div class="nav-blank-space box-blank-nav"></div>
+      <div class="nav-blank-space box-blank-nav"> </div>
       <div class="nav-blank-space box-cart-nav">
         <a class="nav-cart" href="cart.html">
           <img class="icon-shopping" src="images/icons/buy.png" alt="shopping cart icon">
@@ -36,8 +36,15 @@
         <h2>Assassin's Creed III</h2>
         <button class="action-button"><a href="product_example_1.html">More Info</a></button>
       </div>
-
     </div>
+
+    <section id="sale-banner">
+      <div class="sale">
+        <h3>All Featured Games 30% off!</h3>
+        <button class="action-button"><a href="product_example_1.html">See more</a></button>
+      </div>
+    </section>
+
 
     <section id="featured-games">
       <div class="page-heading">
@@ -46,7 +53,7 @@
       </div>
 
       <div class="module product-grid-index-page">
-        <div class="product-square">
+        <div class="product-square fill">
           <img src="images/Assassin's_Creed_III_Game_Cover.jpg" alt="Ass creed game cover">
           <div class="product-square-text">
             <a class="product-link" href="product_example_1.html">
@@ -55,7 +62,7 @@
             </a>
           </div>
         </div>
-        <div class="product-square">
+        <div class="product-square fill">
           <img src="images/Acunity.jpg" alt="Ass creed game cover">
           <div class="product-square-text">
             <a class="product-link" href="product_example_2.html">
@@ -64,7 +71,7 @@
             </a>
           </div>
         </div>
-        <div class="product-square">
+        <div class="product-square fill">
           <img src="images/Assassin's_Creed_Rogue.jpg" alt="Ass creed game cover">
           <div class="product-square-text">
             <a class="product-link" href="product_example_3.html">
@@ -126,12 +133,40 @@
       </div>
     </section>
 
-    <div class="footer-main box">
-      <h4 class="footer-main-item">Phalanx Studios, Copyright Information, all rights reserved, etc.</h4>
-      <h4 class="footer-main-item">Company Address: 11111 111 st City, Province, Canada</h4>
-      <div class="footer-main-item">
-        <h4>Office Phone: 604 111 1111</h4>
-        <h4>Email Us: phalanx_studios@example.com</h4>
+    <section id="about">
+      <div class="module index-about">
+        <div class="index-about-image">
+          <img src="images/workers.jpg" alt="">
+        </div>
+        <div class="module text-box news-text">
+          <h2>What is Phalanx?</h2>
+          <div class="line"></div>
+          <p class="content">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Cras mauris est, dictum in eleifend ac, porta eget urna.
+          Sed bibendum sapien sit amet arcu semper maximus id a mi.
+          Vestibulum quis lacus at enim maximus sodales.
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Cras mauris est, dictum in eleifend ac, porta eget urna.
+          Sed bibendum sapien sit amet arcu semper maximus id a mi.
+          Vestibulum quis lacus at enim maximus sodales.
+          </p>
+          <div class="action-bar">
+            <button class="action-button"><a href="article2.html">Explore</a></button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="footer-main">
+      <h1>Phalanx Studios</h1>
+      <div class="footer-content">
+        <h4 class="footer-main-item">Copyright Information, all rights reserved, etc.</h4>
+        <h4 class="footer-main-item">Company Address: 11111 111 st City, Province, Canada</h4>
+        <div class="footer-main-item">
+          <h4>Office Phone: 604 111 1111</h4>
+          <h4>Email Us: phalanx_studios@example.com</h4>
+        </div>
       </div>
     </div>
   </body>

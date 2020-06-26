@@ -153,6 +153,13 @@ img {
 	margin-bottom: 2em;
 }
 
+/* https://www.w3schools.com/howto/howto_js_navbar_sticky.asp */
+/* .sticky {
+	width: 100%;
+  position: fixed;
+  top: 0;
+} */
+
 .product-browser-main-item {
 	border: 1px solid black;
 	margin: 4em;
