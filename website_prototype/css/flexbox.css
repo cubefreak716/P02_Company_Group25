@@ -15,10 +15,6 @@
 	justify-content: space-around;
 }
 
-.nav-main{
-	height:4em;
-}
-
 .box-item-nav {
 	flex: 1 1 auto;
 }
@@ -51,5 +47,18 @@
 }
 
 
-@media (max-width: 30em) {
+@media (max-width: 45em) {
+	.nav-main {
+		flex-direction: column;
+	}
+	.nav-cart {
+		padding-bottom: 1.25em;
+	}
+	.nav-button {
+		padding-bottom: 1em;
+		padding-top: 1em;
+	}
+	.logo-text {
+		text-align: center;
+	}
 }
