@@ -87,4 +87,8 @@ body {
 
 .twitter-container {
 	margin-top: 2em;
+	width:30%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom:4em;
 }

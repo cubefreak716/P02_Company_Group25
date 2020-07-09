@@ -22,6 +22,12 @@
 .index-about-image{
   margin-left: 7em;
 }
+.black{
+  background-color: rgb(50,50,50);
+}
+.white-text{
+  color: white;
+}
 
 /*  */
 /* sales */
@@ -269,7 +275,7 @@ p.product-grid-description{
 
 .event-grid{
   /* border:1px solid black; */
-  width:90%;
+  width:70%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2em;
@@ -307,7 +313,6 @@ p.product-grid-description{
   height: 240px;
   transition: background-color 1s ease-out;
   text-align: center;
-  padding-top: 7em;
 }
 
 .event-rectangle-sections:hover{
@@ -322,6 +327,18 @@ p.product-grid-description{
   padding-left: 0.8em;
   padding-right: 0.8em;
   color: white;
+}
+
+.alt-colour{
+  background-color: rgba(200,200,200,1);
+}
+
+.preview-text{
+  font-size: 1.5em;
+  margin:0;
+  margin-top:1.8em;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
