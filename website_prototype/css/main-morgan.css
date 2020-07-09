@@ -13,6 +13,7 @@ body {
 .footer-main>h1{
 	border: 1px solid white;
 	width:20%;
+	min-width: 5em;
 	padding-top: 0.3em;
 	padding-bottom: 0.3em;
 	margin-left: auto;
@@ -66,9 +67,14 @@ body {
 }
 
 .nav-cart {
-	margin-top: 1em;
+	padding-top: 1em;
 	padding-left: 1em;
 	padding-right: 1em;
+	background-color: rgba(0, 0, 0,0.9);
+}
+
+.nav-cart:hover, .nav-cart:focus {
+	background-color: rgba(0, 0, 0, 0.6);
 }
 
 .gallery_link {
