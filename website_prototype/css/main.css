@@ -31,6 +31,7 @@ p {
 
 li {
 	text-align: left;
+	font-size: 1.3em;
 }
 
 h1{
@@ -114,6 +115,9 @@ img {
 .action-button:hover, .action-button:focus {
 	background-color: rgba(0,0,0,0.8);
 }
+.complete-order-button{
+	margin:0;
+}
 
 .nav-button{
 	background-color: rgba(0, 0, 0,0.8);
@@ -160,13 +164,6 @@ img {
 	margin-left: 0;
 	margin-bottom: 1.5em;
 }
-
-/* https://www.w3schools.com/howto/howto_js_navbar_sticky.asp */
-/* .sticky {
-	width: 100%;
-  position: fixed;
-  top: 0;
-} */
 
 .product-browser-main-item {
 	border: 1px solid black;

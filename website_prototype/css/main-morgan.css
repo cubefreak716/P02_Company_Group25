@@ -91,7 +91,10 @@ body {
 }
 
 .article-img {
-	width: 75%;
+	width: 50%;
+	margin-left: auto;
+	margin-right:auto;
+	margin-bottom: 0.5em;
 }
 
 .twitter-container {

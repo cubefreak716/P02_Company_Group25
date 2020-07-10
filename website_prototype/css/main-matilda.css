@@ -15,7 +15,11 @@
 
 /*  */
 /* index about section */
-
+.pointer{
+  width:30px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .black{
   background-color: rgb(50,50,50);
 }
@@ -75,6 +79,7 @@
 p.about-text{
   text-align: left;
   font-size: 1.2em;
+  margin-bottom: 0;
 }
 p.about-text-index{
   text-align: center;
@@ -291,6 +296,14 @@ p.product-grid-description{
 .game-banner-text>h2{
     font-size: 4em;
 }
+p.game-text{
+  width:50%;
+  font-size: 1.2em;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right:auto;
+}
 
 
 /*  */
@@ -338,10 +351,6 @@ p.product-grid-description{
   background-color: rgba(120,120,120,0.5);
 }
 
-/* .event-rectangle-secondary{
-  flex:55%;
-} */
-
 .event-rectangle-sections{
   background-color: rgba(120,120,120,1);
   margin-top:0.5em;
@@ -350,6 +359,7 @@ p.product-grid-description{
   text-align: center;
   flex:30%;
 }
+
 
 .event-rectangle-sections:hover{
   background-color: rgba(120,120,120,0.5);
@@ -366,8 +376,6 @@ p.product-grid-description{
   padding-top: 0.3em;
   color: white;
 }
-
-
 
 .alt-colour{
   background-color: rgba(200,200,200,1);
@@ -417,7 +425,6 @@ p.product-grid-description{
   font-weight: bold;
   margin:0;
   margin-bottom: 0.6em;
-  padding-left: 1em;
 }
 /* line seperator */
 .line{
@@ -442,10 +449,18 @@ p.content{
 .news-text{
   min-width: 25em;
   display: block;
+  margin-bottom: 0;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right:auto;
 }
-.action-bar{
-  margin-top: 0.8em;
+.news-article-box{
+  margin-left: auto;
+  margin-right:auto;
+  text-align: center;
+  padding-bottom: 1.2em;
 }
+
 .action-bar>.action-button{
   float:right;
 }
@@ -487,7 +502,7 @@ p.content{
   padding-top: 4em;
   display: flex;
   justify-content: center;
-  background-color: rgba(120, 120, 120, 1);
+  background-color: rgb(20, 20,20);
 }
 
 #section-review{
@@ -565,9 +580,9 @@ p.content{
 
 /*  */
 /* Shopping cart */
-#content>h2{
+#cart-content>h2{
   text-align: center;
-  padding: 3.5em;
+  padding: 1.5em;
 }
 .shopping-cart-box{
   display: flex;
@@ -587,6 +602,10 @@ p.content{
   display: flex;
   flex-direction:row;
   margin-bottom: 0.5em;
+  background-color: rgb(60,60,60);
+}
+.total-row{
+  background-color:transparent;
 }
 .cart-item-name{
   flex:4;
@@ -594,6 +613,8 @@ p.content{
   margin-left: 0.5em;
   margin-right: 0.3em;
   font-size: 1.3em;
+  margin-top: auto;
+  margin-bottom: auto;
 }
 .cart-item-image{
   flex:1;
@@ -606,16 +627,18 @@ p.content{
   flex:1;
   display: flex;
   flex-direction:row;
-  margin-left: 0.6em;
-  margin-right: 0.3em;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 1.3em;
+  margin-right: 0;
 }
 .price{
   margin:0;
   padding: 0;
-  padding-top: 0.2em;
+  padding-top: 0.5em;
 }
 .cart-item-remove-button{
-  background-color: rgba(255, 0, 0, 0.2);
+  background-color: rgb(161, 108, 108);
   width:30px;
   height:30px;
   margin:0;
@@ -624,14 +647,28 @@ p.content{
   margin-right:0.2em;
 }
 .price-empty-space{
-  flex:6;
+  flex:3;
   /* background-color: rgba(255, 0, 0, 0.2); */
 }
 .price-total{
-  padding: 1.5em;
-  padding: 0.5em;
-  flex:1%;
+  flex:1;
   text-align: center;
+  color:white;
+  font-size: 1.2em;
+}
+.subtotal{
+  color:rgb(210,210,210);
+  width:inherit;
+  text-align: right;
+  margin:0;
+  padding:0;
+  font-size: 0.8em;
+}
+.calculation{
+  width:inherit;
+  text-align: right;
+  margin:0;
+  padding:0;
 }
 .line-total-price{
     border-bottom:2px solid rgba(191, 144, 90,0.6);
@@ -644,13 +681,10 @@ p.content{
 .payment-left{
   flex: 1;
   margin-right: 0.5em;
-  border-top: 1px solid black;
-  border-left: 1px solid black;
   padding: 0.3em;
 }
 .payment-right{
   flex: 1;
-  border-top: 1px solid black;
   padding: 0.3em;
 }
 
@@ -723,7 +757,6 @@ p.content{
   transition: background-color 0.5s ease-out;
   color: rgba(160,160,160,1);
   font-size: 1.2em;
-
 }
 
 #payment>.submit-button{
@@ -731,13 +764,31 @@ p.content{
   flex:20%;
 }
 
+input{
+  background-color: rgb(60,60,60);
+}
+
+label{
+  color:white;
+  font-size: 1.3em;
+}
+
 .radio{
   flex:22%;
-  background-color:#D9D9D9;
   text-align: center;
   margin-right: 0.2em;
   padding: 1.2em;
 }
+label.radio{
+    height:120px;
+    border:1px solid white;
+}
+@media only screen and (max-width: 55em) {
+  .payment-cart-box {
+		display: block;
+	}
+}
+
 
 /*  */
 /* community */
