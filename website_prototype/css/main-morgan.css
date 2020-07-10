@@ -3,9 +3,13 @@ body {
 	margin: 0;
 }
 
+#footer{
+	padding:0;
+}
+
 .footer-main {
-	background-color: rgba(0, 0, 0,0.8);
-	padding: 1em;
+	background-color: rgba(30, 30, 30,1);
+	padding: 2.5em;
 	color: white;
 	text-align: center;
 }
@@ -64,6 +68,11 @@ body {
 	margin: 0;
 	padding-top: 0.7em;
 	height:280px;
+
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0.5em
 }
 
 .nav-cart {

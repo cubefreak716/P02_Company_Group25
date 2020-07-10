@@ -15,19 +15,72 @@
 
 /*  */
 /* index about section */
-.index-about{
-  display: flex;
-  justify-content: center;
-}
-.index-about-image{
-  margin-left: 7em;
-}
+
 .black{
   background-color: rgb(50,50,50);
 }
 .white-text{
   color: white;
 }
+/* https://stackoverflow.com/questions/14142378/how-can-i-fill-a-div-with-an-image-while-keeping-it-proportional */
+.fill {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden
+}
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%
+}
+
+/*  */
+/* about */
+#about,#about-overview,#about-ethos,#about-works{
+  padding:0;
+}
+.index-about{
+  display: flex;
+  justify-content: center;
+
+}
+.index-about-image-frame{
+  height:320px;
+  width:50%;
+}
+.index-about-text{
+  width:50%;
+  text-align: center;
+}
+.index-about-text>p{
+  text-align: center;
+  padding: 0;
+  margin-left: auto;
+  margin-right:auto;
+}
+@media only screen and (max-width: 55em) {
+	.index-about {
+		display: block;
+	}
+  .index-about-image-frame, .index-about-text{
+    width:100%;
+  }
+}
+.index-about>.page-heading, .index-about>.index-about-text{
+  margin:0;
+  margin-top:auto;
+  margin-bottom:auto;
+}
+p.about-text{
+  text-align: left;
+  font-size: 1.2em;
+}
+p.about-text-index{
+  text-align: center;
+  font-size: 1.2em;
+}
+
 
 /*  */
 /* sales */
@@ -68,23 +121,14 @@
   background-color: rgb(120,120,120);
 }
 
-/* https://stackoverflow.com/questions/20370396/align-div-to-bottom-of-the-page/20370465 */
-.placeholder-footer{
-  width:100%;
-  height:100px;
-  margin-bottom: 0;
-  background-color: rgb(160,160,160);
-  position: absolute;
-  bottom: 0;
-}
-
 .all{
   position: relative;
   min-height:100%;
 }
 
 #news{
-  background-color: rgb(250,250,250);
+  background-color: rgb(20,20,20);
+  color:white;
 }
 
 /*  */
@@ -158,20 +202,6 @@ p.product-grid-description{
 
 /*  */
 /* For all games page */
-
-/* https://stackoverflow.com/questions/14142378/how-can-i-fill-a-div-with-an-image-while-keeping-it-proportional */
-.fill {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden
-}
-.fill img {
-    flex-shrink: 0;
-    min-width: 100%;
-    min-height: 100%
-}
-
 .product-grid-product-page{
   margin-left: auto;
   margin-right:auto;
@@ -240,7 +270,6 @@ p.product-grid-description{
 .game-banner{
   width:100%;
   height:700px;
-  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   justify-content: center;
   margin-top: -1.75em;
@@ -254,9 +283,10 @@ p.product-grid-description{
 }
 .game-banner-text{
   position: absolute;
-  padding-top: 20em;
+  margin-top: 20em;
+  padding:0.6em;
   color: rgba(255,255,255,1);
-  /* background-color: rgba(255, 255, 255, 0.5); */
+  background-color: rgba(120, 120, 120, 0.5);
 }
 .game-banner-text>h2{
     font-size: 4em;
@@ -279,6 +309,14 @@ p.product-grid-description{
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 2em;
+}
+
+.event-grid-column{
+  width:70%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
+  justify-content: center;
 }
 
 .event-rectangle-main{
@@ -328,6 +366,8 @@ p.product-grid-description{
   padding-top: 0.3em;
   color: white;
 }
+
+
 
 .alt-colour{
   background-color: rgba(200,200,200,1);
@@ -389,6 +429,7 @@ p.content{
   color: black;
   margin-bottom: 0.5em;
 }
+
 .text-box{
   display: flex;
   flex-direction: column;
@@ -407,6 +448,15 @@ p.content{
 }
 .action-bar>.action-button{
   float:right;
+}
+.action-bar-center{
+  padding-top:3em;
+  display: flex;
+  justify-content: center;
+}
+.action-bar-center>.action-button{
+  padding-left: auto;
+  padding-right:auto;
 }
 
 /*  */
@@ -548,7 +598,6 @@ p.content{
 .cart-item-image{
   flex:1;
   margin-right: 0.3em;
-  padding-top: 4em;
   background-color: rgba(0, 0, 0,0.1);
   height:150px;
   text-align: center;

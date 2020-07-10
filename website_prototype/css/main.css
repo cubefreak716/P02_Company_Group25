@@ -20,6 +20,7 @@ section {
 	padding-bottom: 5em;
 	margin-left: auto;
 	margin-right: auto;
+	border-bottom: 1px solid rgb(120,120,120);
 }
 
 p {
@@ -39,6 +40,11 @@ h1{
 h2{
 	padding: 0;
 	margin: 0;
+	font-size:2.5em;
+}
+h3{
+	margin-left: 0.5em;
+	font-size:1.8em;
 }
 
 img {
@@ -48,6 +54,11 @@ img {
 	margin-bottom: 0;
 	padding: 0;
 	object-fit: cover;
+}
+
+.center{
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .color-swatch {
@@ -97,6 +108,7 @@ img {
 	font-size: 1em;
 	transition: background-color 1s ease-out;
 	border:0px;
+	margin-right: 0.5em;
 }
 
 .action-button:hover, .action-button:focus {
@@ -127,10 +139,6 @@ img {
 
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.product-main {
-	/* background-color: rgb(242, 226, 208); */
 }
 
 .product-main-1 {
